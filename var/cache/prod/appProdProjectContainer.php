@@ -26,6 +26,7 @@ class appProdProjectContainer extends Container
             'config_cache_factory' => 'getConfigCacheFactoryService',
             'controller_name_converter' => 'getControllerNameConverterService',
             'crud_ext_js.generator' => 'getCrudExtJs_GeneratorService',
+            'crud_ext_js.util' => 'getCrudExtJs_UtilService',
             'crud_ext_js.validator' => 'getCrudExtJs_ValidatorService',
             'debug.debug_handlers_listener' => 'getDebug_DebugHandlersListenerService',
             'debug.stopwatch' => 'getDebug_StopwatchService',
@@ -245,7 +246,11 @@ class appProdProjectContainer extends Container
     }
     protected function getCrudExtJs_GeneratorService()
     {
-        return $this->services['crud_ext_js.generator'] = new \CrudExtJSBundle\Services\Generator($this, $this->get('doctrine.orm.default_entity_manager'));
+        return $this->services['crud_ext_js.generator'] = new \CrudExtJSBundle\Services\Generator($this);
+    }
+    protected function getCrudExtJs_UtilService()
+    {
+        return $this->services['crud_ext_js.util'] = new \CrudExtJSBundle\Services\Util($this, $this->get('doctrine.orm.default_entity_manager'));
     }
     protected function getCrudExtJs_ValidatorService()
     {
@@ -279,23 +284,28 @@ class appProdProjectContainer extends Container
     }
     protected function getDoctrine_Orm_DefaultEntityManagerService()
     {
-        $a = new \Doctrine\Common\Persistence\Mapping\Driver\MappingDriverChain();
-        $a->addDriver(new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($this->get('annotation_reader'), array(0 => ($this->targetDirs[3].'\\src\\AdminBundle\\Entity'))), 'AdminBundle\\Entity');
-        $b = new \Doctrine\ORM\Configuration();
-        $b->setEntityNamespaces(array('AdminBundle' => 'AdminBundle\\Entity'));
-        $b->setMetadataCacheImpl($this->get('doctrine_cache.providers.doctrine.orm.default_metadata_cache'));
-        $b->setQueryCacheImpl($this->get('doctrine_cache.providers.doctrine.orm.default_query_cache'));
-        $b->setResultCacheImpl($this->get('doctrine_cache.providers.doctrine.orm.default_result_cache'));
-        $b->setMetadataDriverImpl($a);
-        $b->setProxyDir((__DIR__.'/doctrine/orm/Proxies'));
-        $b->setProxyNamespace('Proxies');
-        $b->setAutoGenerateProxyClasses(false);
-        $b->setClassMetadataFactoryName('Doctrine\\ORM\\Mapping\\ClassMetadataFactory');
-        $b->setDefaultRepositoryClassName('Doctrine\\ORM\\EntityRepository');
-        $b->setNamingStrategy(new \Doctrine\ORM\Mapping\UnderscoreNamingStrategy());
-        $b->setQuoteStrategy(new \Doctrine\ORM\Mapping\DefaultQuoteStrategy());
-        $b->setEntityListenerResolver($this->get('doctrine.orm.default_entity_listener_resolver'));
-        $this->services['doctrine.orm.default_entity_manager'] = $instance = \Doctrine\ORM\EntityManager::create($this->get('doctrine.dbal.default_connection'), $b);
+        $a = $this->get('annotation_reader');
+        $b = new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($a, array(0 => ($this->targetDirs[3].'\\src\\AdminBundle\\Entity'), 1 => ($this->targetDirs[3].'\\src\\NomencladorBundle\\Entity'), 2 => ($this->targetDirs[3].'\\src\\ProyectoBundle\\Entity'), 3 => ($this->targetDirs[3].'\\src\\ReporteBundle\\Entity')));
+        $c = new \Doctrine\Common\Persistence\Mapping\Driver\MappingDriverChain();
+        $c->addDriver($b, 'AdminBundle\\Entity');
+        $c->addDriver($b, 'NomencladorBundle\\Entity');
+        $c->addDriver($b, 'ProyectoBundle\\Entity');
+        $c->addDriver($b, 'ReporteBundle\\Entity');
+        $d = new \Doctrine\ORM\Configuration();
+        $d->setEntityNamespaces(array('AdminBundle' => 'AdminBundle\\Entity', 'NomencladorBundle' => 'NomencladorBundle\\Entity', 'ProyectoBundle' => 'ProyectoBundle\\Entity', 'ReporteBundle' => 'ReporteBundle\\Entity'));
+        $d->setMetadataCacheImpl($this->get('doctrine_cache.providers.doctrine.orm.default_metadata_cache'));
+        $d->setQueryCacheImpl($this->get('doctrine_cache.providers.doctrine.orm.default_query_cache'));
+        $d->setResultCacheImpl($this->get('doctrine_cache.providers.doctrine.orm.default_result_cache'));
+        $d->setMetadataDriverImpl($c);
+        $d->setProxyDir((__DIR__.'/doctrine/orm/Proxies'));
+        $d->setProxyNamespace('Proxies');
+        $d->setAutoGenerateProxyClasses(false);
+        $d->setClassMetadataFactoryName('Doctrine\\ORM\\Mapping\\ClassMetadataFactory');
+        $d->setDefaultRepositoryClassName('Doctrine\\ORM\\EntityRepository');
+        $d->setNamingStrategy(new \Doctrine\ORM\Mapping\UnderscoreNamingStrategy());
+        $d->setQuoteStrategy(new \Doctrine\ORM\Mapping\DefaultQuoteStrategy());
+        $d->setEntityListenerResolver($this->get('doctrine.orm.default_entity_listener_resolver'));
+        $this->services['doctrine.orm.default_entity_manager'] = $instance = \Doctrine\ORM\EntityManager::create($this->get('doctrine.dbal.default_connection'), $d);
         $this->get('doctrine.orm.default_manager_configurator')->configure($instance);
         return $instance;
     }
@@ -677,9 +687,9 @@ class appProdProjectContainer extends Container
         $i = new \Symfony\Component\HttpFoundation\RequestMatcher('^/nomenclador');
         $j = new \Symfony\Component\Security\Http\AccessMap();
         $j->add($f, array(0 => 'ROLE_ADMIN'), NULL);
-        $j->add($g, array(0 => 'ROLE_USER'), NULL);
-        $j->add($h, array(0 => 'ROLE_USER'), NULL);
-        $j->add($i, array(0 => 'ROLE_USER'), NULL);
+        $j->add($g, array(0 => 'ROLE_ADMIN'), NULL);
+        $j->add($h, array(0 => 'ROLE_JEFE_DISENNO'), NULL);
+        $j->add($i, array(0 => 'ROLE_ADMIN', 1 => 'ROLE_JEFE_DISENNO'), NULL);
         $k = new \Symfony\Component\Security\Http\HttpUtils($c, $c);
         $l = new \Symfony\Component\Security\Http\Firewall\LogoutListener($a, $k, new \Symfony\Component\Security\Http\Logout\DefaultLogoutSuccessHandler($k, '_login'), array('csrf_parameter' => '_csrf_token', 'csrf_token_id' => 'logout', 'logout_path' => '_logout'));
         $l->addHandler(new \Symfony\Component\Security\Http\Logout\SessionLogoutHandler());

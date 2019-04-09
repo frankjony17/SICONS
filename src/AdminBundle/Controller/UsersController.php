@@ -29,6 +29,7 @@ class UsersController extends Controller
                 'username' => $value->getUsername(), 
                 'password' => $value->getPassword(), 
                 'email' => $value->getEmail(), 
+                'date_last_login' => $value->getDateLastLogin(), 
                 'is_active' => $value->getIsActive()
             );
         }
@@ -55,6 +56,7 @@ class UsersController extends Controller
         $entity->setUsername($rq->get('username'));
         $entity->setPassword($rq->get('password'));
         $entity->setEmail($rq->get('email'));
+        $entity->setDateLastLogin($rq->get('date_last_login'));
         $entity->setIsActive($rq->get('is_active'));
         /* Validate errors */
         if (count($errors = $this->get('validator')->validate($entity)) > 0) {

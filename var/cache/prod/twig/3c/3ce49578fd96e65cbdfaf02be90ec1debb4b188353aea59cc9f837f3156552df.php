@@ -52,20 +52,24 @@ class __TwigTemplate_22b81081b44c48e837ca37faf9ce05cf06dba51f6e0a2f144b0385f91ce
         echo "\"></script>
         <script type=\"text/javascript\" src=\"";
         // line 14
-        echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("js/ext-6.0.1/theme-triton/theme-triton.js"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("js/ext-6.0.1/charts.js"), "html", null, true);
         echo "\"></script>
         <script type=\"text/javascript\" src=\"";
         // line 15
+        echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("js/ext-6.0.1/theme-triton/theme-triton.js"), "html", null, true);
+        echo "\"></script>
+        <script type=\"text/javascript\" src=\"";
+        // line 16
         echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("js/ext-6.0.1/locale-es.js"), "html", null, true);
         echo "\"></script>
 
         ";
-        // line 17
-        $this->displayBlock('stylesheet', $context, $blocks);
         // line 18
+        $this->displayBlock('stylesheet', $context, $blocks);
+        // line 19
         echo "        ";
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 19
+        // line 20
         echo "    </head>
 </html>
 ";
@@ -81,12 +85,12 @@ class __TwigTemplate_22b81081b44c48e837ca37faf9ce05cf06dba51f6e0a2f144b0385f91ce
     {
     }
 
-    // line 17
+    // line 18
     public function block_stylesheet($context, array $blocks = array())
     {
     }
 
-    // line 18
+    // line 19
     public function block_javascripts($context, array $blocks = array())
     {
     }
@@ -103,7 +107,7 @@ class __TwigTemplate_22b81081b44c48e837ca37faf9ce05cf06dba51f6e0a2f144b0385f91ce
 
     public function getDebugInfo()
     {
-        return array (  90 => 18,  85 => 17,  80 => 6,  75 => 5,  69 => 19,  66 => 18,  64 => 17,  59 => 15,  55 => 14,  51 => 13,  46 => 11,  41 => 10,  35 => 7,  33 => 6,  29 => 5,  23 => 1,);
+        return array (  94 => 19,  89 => 18,  84 => 6,  79 => 5,  73 => 20,  70 => 19,  68 => 18,  63 => 16,  59 => 15,  55 => 14,  51 => 13,  46 => 11,  41 => 10,  35 => 7,  33 => 6,  29 => 5,  23 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
@@ -119,6 +123,7 @@ class __TwigTemplate_22b81081b44c48e837ca37faf9ce05cf06dba51f6e0a2f144b0385f91ce
 /*         <link rel="stylesheet" type="text/css" href="{{ asset('js/ext-6.0.1/theme-triton/charts-all.css') }}" />*/
 /* */
 /*         <script type="text/javascript" src="{{ asset('js/ext-6.0.1/ext-all.js') }}"></script>*/
+/*         <script type="text/javascript" src="{{ asset('js/ext-6.0.1/charts.js') }}"></script>*/
 /*         <script type="text/javascript" src="{{ asset('js/ext-6.0.1/theme-triton/theme-triton.js') }}"></script>*/
 /*         <script type="text/javascript" src="{{ asset('js/ext-6.0.1/locale-es.js') }}"></script>*/
 /* */

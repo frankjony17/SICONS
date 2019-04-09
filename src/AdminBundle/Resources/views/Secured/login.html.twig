@@ -1,24 +1,24 @@
+{% extends "::base.html.twig" %}
 
-{% block content %}
-    <h1 class="title">Login</h1>
+{% block title %}SICONS{% endblock %}
 
-    <form action="{{ path("_security_check") }}" method="post" id="login">
-        <div>
-            <label for="username">Username</label>
-            <input type="text" id="username" name="_username" />
-        </div>
+{% block favicon %}{{ asset('favicon.ico') }}{% endblock %}
 
-        <div>
-            <label for="password">Password</label>
-            <input type="password" id="password" name="_password" />
-        </div>
+{% block stylesheet %}
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/admin/index.css') }}" />
+{% endblock %}
 
-        <button type="submit" class="sf-button">
-            <span class="border-l">
-                <span class="border-r">
-                    <span class="btn-bg">Login</span>
-                </span>
-            </span>
-        </button>
-    </form>
+{% block javascripts %}
+    <script>
+        Ext.application({
+            name: 'SCS',
+            appFolder: '/js/app',
+                controllers: [
+                    "admin.LoginController"
+                ],
+            launch: function(){
+                Ext.create('SCS.view.admin.LoginViewport');
+            }
+        });
+    </script>
 {% endblock %}

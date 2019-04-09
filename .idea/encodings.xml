@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/ProyectoBundle/Resources/views/EquipoTrabajo/index.html.twig" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/ProyectoBundle/Resources/views/EspecialistaCalidad/index.html.twig" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/ProyectoBundle/Resources/views/JefeDisenno/index.html.twig" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/controller/admin/AdminController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/controller/admin/LoginController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/controller/proyecto/ConsejoTecnicoController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/controller/proyecto/PlanCalidadController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/controller/proyecto/PlanCalidadProyectoController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/controller/proyecto/RevisionContratoController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/controller/proyecto/TareaProyeccionController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/controller/proyecto/TareaProyeccionProyectoController.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/admin/users/UsersForm.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/equipotrabajo/Viewport.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/equipotrabajo/tareaproyeccion/TareaProyeccionGrid.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/especialistacalidad/Viewport.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/especialistacalidad/revisioncontrato/RevisionContratoGrid.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/Viewport.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/consejotecnico/AcuerdosGrid.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/plancalidad/PlanCalidadGrid.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/plancalidad/ProyectoPlanCalidadForm.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/plancalidad/ProyectoPlanCalidadGrid.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/proyecto/ProyectoForm1.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/proyecto/ProyectoForm1Edit.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/proyecto/ProyectoForm2.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/proyecto/ProyectoForm2Edit.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/proyecto/ProyectoForm3.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/proyecto/ProyectoForm3Edit.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/proyecto/ProyectoForm4.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/proyecto/ProyectoForm4Edit.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/proyecto/ProyectoForm5.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/proyecto/ProyectoForm5Edit.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/proyecto/ProyectoForm6.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/proyecto/ProyectoGrid.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/tareaproyeccion/ProyectoTareaProyeccionForm.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/tareaproyeccion/ProyectoTareaProyeccionGrid.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/tareaproyeccion/TareaProyeccionGrid.js" charset="UTF-8" />
+  </component>
+</project>

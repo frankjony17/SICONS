@@ -7,49 +7,64 @@ class __TwigTemplate_c1183faed92d3aefdf0181128ae325751ac064d940289f515ae993f0849
     {
         parent::__construct($env);
 
-        $this->parent = false;
-
+        // line 1
+        $this->parent = $this->loadTemplate("::base.html.twig", "AdminBundle:Secured:login.html.twig", 1);
         $this->blocks = array(
-            'content' => array($this, 'block_content'),
+            'title' => array($this, 'block_title'),
+            'favicon' => array($this, 'block_favicon'),
+            'stylesheet' => array($this, 'block_stylesheet'),
+            'javascripts' => array($this, 'block_javascripts'),
         );
+    }
+
+    protected function doGetParent(array $context)
+    {
+        return "::base.html.twig";
     }
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        // line 1
-        echo "
-";
-        // line 2
-        $this->displayBlock('content', $context, $blocks);
+        $this->parent->display($context, array_merge($this->blocks, $blocks));
     }
 
-    public function block_content($context, array $blocks = array())
+    // line 3
+    public function block_title($context, array $blocks = array())
     {
-        // line 3
-        echo "    <h1 class=\"title\">Login</h1>
+        echo "SICONS";
+    }
 
-    <form action=\"";
-        // line 5
-        echo $this->env->getExtension('routing')->getPath("_security_check");
-        echo "\" method=\"post\" id=\"login\">
-        <div>
-            <label for=\"username\">Username</label>
-            <input type=\"text\" id=\"username\" name=\"_username\" />
-        </div>
+    // line 5
+    public function block_favicon($context, array $blocks = array())
+    {
+        echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("favicon.ico"), "html", null, true);
+    }
 
-        <div>
-            <label for=\"password\">Password</label>
-            <input type=\"password\" id=\"password\" name=\"_password\" />
-        </div>
+    // line 7
+    public function block_stylesheet($context, array $blocks = array())
+    {
+        // line 8
+        echo "    <link rel=\"stylesheet\" type=\"text/css\" href=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('asset')->getAssetUrl("css/admin/index.css"), "html", null, true);
+        echo "\" />
+";
+    }
 
-        <button type=\"submit\" class=\"sf-button\">
-            <span class=\"border-l\">
-                <span class=\"border-r\">
-                    <span class=\"btn-bg\">Login</span>
-                </span>
-            </span>
-        </button>
-    </form>
+    // line 11
+    public function block_javascripts($context, array $blocks = array())
+    {
+        // line 12
+        echo "    <script>
+        Ext.application({
+            name: 'SCS',
+            appFolder: '/js/app',
+                controllers: [
+                    \"admin.LoginController\"
+                ],
+            launch: function(){
+                Ext.create('SCS.view.admin.LoginViewport');
+            }
+        });
+    </script>
 ";
     }
 
@@ -58,33 +73,37 @@ class __TwigTemplate_c1183faed92d3aefdf0181128ae325751ac064d940289f515ae993f0849
         return "AdminBundle:Secured:login.html.twig";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  33 => 5,  29 => 3,  23 => 2,  20 => 1,);
+        return array (  56 => 12,  53 => 11,  46 => 8,  43 => 7,  37 => 5,  31 => 3,  11 => 1,);
     }
 }
+/* {% extends "::base.html.twig" %}*/
 /* */
-/* {% block content %}*/
-/*     <h1 class="title">Login</h1>*/
+/* {% block title %}SICONS{% endblock %}*/
 /* */
-/*     <form action="{{ path("_security_check") }}" method="post" id="login">*/
-/*         <div>*/
-/*             <label for="username">Username</label>*/
-/*             <input type="text" id="username" name="_username" />*/
-/*         </div>*/
+/* {% block favicon %}{{ asset('favicon.ico') }}{% endblock %}*/
 /* */
-/*         <div>*/
-/*             <label for="password">Password</label>*/
-/*             <input type="password" id="password" name="_password" />*/
-/*         </div>*/
-/* */
-/*         <button type="submit" class="sf-button">*/
-/*             <span class="border-l">*/
-/*                 <span class="border-r">*/
-/*                     <span class="btn-bg">Login</span>*/
-/*                 </span>*/
-/*             </span>*/
-/*         </button>*/
-/*     </form>*/
+/* {% block stylesheet %}*/
+/*     <link rel="stylesheet" type="text/css" href="{{ asset('css/admin/index.css') }}" />*/
 /* {% endblock %}*/
 /* */
+/* {% block javascripts %}*/
+/*     <script>*/
+/*         Ext.application({*/
+/*             name: 'SCS',*/
+/*             appFolder: '/js/app',*/
+/*                 controllers: [*/
+/*                     "admin.LoginController"*/
+/*                 ],*/
+/*             launch: function(){*/
+/*                 Ext.create('SCS.view.admin.LoginViewport');*/
+/*             }*/
+/*         });*/
+/*     </script>*/
+/* {% endblock %}*/

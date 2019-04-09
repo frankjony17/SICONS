@@ -1,31 +1,38 @@
 
 Ext.define('SCS.view.admin.roles.RolesGrid', {
     extend: 'Ext.grid.Panel',
-    xtype: 'grid-roles',
-    /* Config options */
+    xtype: 'roles-grid',
+
     width: '100%',
-    border: 1,
-    selType: 'checkboxmodel',
-    autoScroll: 1,
-    scrollable: 'vertical',
-    /* Store */
-    store: Ext.create('SCS.store.RolesStore'),
-    /* Columns */
-    columns: [{"xtype":"rownumberer","text":"No","width":45,"align":"center"},{"text":"Id","dataIndex":"id","flex":2,"hidden":false},{"text":"Name","dataIndex":"name","flex":3,"hidden":false},{"text":"Role","dataIndex":"role","flex":5,"hidden":false}],
-    /* TollBar */
-    tbar : [{
-        text: 'Adicionar',
-        tooltip: 'Adicionar roles',
-        iconCls: 'fa fa-plus',
-        action: 'add'
-    },{
-        text: 'Eliminar',
-        tooltip: 'Eliminar roles',
-        iconCls: 'fa fa-trash',
-        action: 'remove'
-    }, '->', {
-        tooltip: 'Ayuda relacionada con roles',
-        iconCls: 'fa fa-info',
-        action: 'help'
-    }]
+    border: false,
+    autoScroll: true,
+    
+    features: [{
+        groupHeaderTpl: 'Modulo: {name}',
+        ftype: 'groupingsummary',
+        collapsible: false
+    }],
+    initComponent: function() {
+        var me = this; // Ambito del componente.
+        // Store
+        me.store = Ext.create('SCS.store.admin.RolesStore');
+        // Modelo de columna
+        me.columns = [{
+            xtype : 'rownumberer',
+            text  : 'No',
+            width : 35,
+            align : 'center'
+        }, {
+            text: 'Id',
+            dataIndex: 'id',
+            width: 35,
+            hidden: true
+        }, {
+            text: 'Roles',
+            dataIndex: 'role',
+            flex: 1
+        }];
+        // Carga nuestra configuaración y se la pasa al componente padre.
+        me.callParent(arguments);
+    }
 });

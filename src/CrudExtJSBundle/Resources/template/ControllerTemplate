@@ -43,7 +43,7 @@ class ENTITYController extends Controller
         $em = $this->getDoctrine()->getManager();
         /* Add or Edit ENTITY */
         if ($rq->get('id')) {
-            $entity = $em->getRepository('AdminBundle:ENTITY')->find($rq->get('id'));
+            $entity = $em->getRepository('BUNDLE:ENTITY')->find($rq->get('id'));
         } else {
             $entity = new ENTITY();
         }

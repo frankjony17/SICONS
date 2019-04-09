@@ -43,6 +43,23 @@ class Util
     }
 
     /**
+     * Get content from existent file.
+     *
+     * @param $file
+     * @return string
+     */
+    public function getFileContent($file)
+    {
+        $filePath = realpath($this->getPath() . $file);
+        /* Exception if not exist the file */
+        if (!$filePath) {
+            throw new \RuntimeException('No found file: '. $filePath);
+        }
+        /* Get content from file */
+        return file_get_contents($filePath);
+    }
+
+    /**
      * Get Name.
      *
      * @param $columnName
@@ -112,9 +129,7 @@ class Util
      */
     public function getBundleName($bundle)
     {
-        list($name, $prefix) = explode('Bundle', $bundle);
-
-        return trim(strtolower($name));
+        return strtolower(substr($bundle, 0, -6));
     }
 
     /**
@@ -141,7 +156,7 @@ class Util
     public function getEntityName($columnName)
     {
         if (substr($columnName, -3) === '_id') {
-            return $this->getName(substr($columnName, 0,  -3), "");
+            return $this->getName(substr($columnName, 0, -3), "");
         } else {
             return $this->getName($columnName, "");
         }
@@ -182,10 +197,11 @@ class Util
     {
         $explode = explode('\\', $this->finder($fileName, $path));
 
-        if (count($explode) > 1) {
-            return trim($explode[0]);
-        } else {
-            return false;
+        foreach ($explode as $dir) {
+            if (substr($dir, -6) === 'Bundle') {
+                return $dir;
+            }
         }
+        return false;
     }
 }

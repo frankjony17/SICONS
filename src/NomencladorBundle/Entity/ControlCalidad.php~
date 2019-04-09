@@ -1,0 +1,89 @@
+<?php
+
+namespace NomencladorBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * ControlCalidad
+ *
+ * @ORM\Table(name="control_calidad", uniqueConstraints={@ORM\UniqueConstraint(name="control_calidad_nombre_key", columns={"nombre"})}, indexes={@ORM\Index(name="IDX_278E68CB15A1504E", columns={"control_calidad_tipo_id"})})
+ * @ORM\Entity
+ */
+class ControlCalidad
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="SEQUENCE")
+     * @ORM\SequenceGenerator(sequenceName="control_calidad_id_seq", allocationSize=1, initialValue=1)
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="nombre", type="string", length=48, nullable=false)
+     */
+    private $nombre;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="descripcion", type="string", length=128, nullable=true)
+     */
+    private $descripcion;
+
+    /**
+     * @var \ControlCalidadTipo
+     *
+     * @ORM\ManyToOne(targetEntity="ControlCalidadTipo")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="control_calidad_tipo_id", referencedColumnName="id")
+     * })
+     */
+    private $controlCalidadTipo;
+
+    /**
+     * @var \Doctrine\Common\Collections\Collection
+     *
+     * @ORM\ManyToMany(targetEntity="ProyectoObjetos", inversedBy="controlCalidad")
+     * @ORM\JoinTable(name="control_calidad_proyecto_objetos",
+     *   joinColumns={
+     *     @ORM\JoinColumn(name="control_calidad_id", referencedColumnName="id")
+     *   },
+     *   inverseJoinColumns={
+     *     @ORM\JoinColumn(name="proyecto_objetos_id", referencedColumnName="id")
+     *   }
+     * )
+     */
+    private $proyectoObjetos;
+
+    /**
+     * @var \Doctrine\Common\Collections\Collection
+     *
+     * @ORM\ManyToMany(targetEntity="ProyectoEspecialidadProyecto", inversedBy="controlCalidad")
+     * @ORM\JoinTable(name="control_calidad_proyecto_especialidad",
+     *   joinColumns={
+     *     @ORM\JoinColumn(name="control_calidad_id", referencedColumnName="id")
+     *   },
+     *   inverseJoinColumns={
+     *     @ORM\JoinColumn(name="proyecto_especialidad_proyecto_id", referencedColumnName="id")
+     *   }
+     * )
+     */
+    private $proyectoEspecialidadProyecto;
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->proyectoObjetos = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->proyectoEspecialidadProyecto = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+
+}
+

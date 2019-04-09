@@ -1,0 +1,32 @@
+/** Icons for Tree */
+.persona:before{font:16px/1 FontAwesome;color: #c76747;content:"\f21b"}
+.proyecto:before{font:16px/1 FontAwesome;color: #26912e;content:"\f19c"}
+
+.app:before{font:18px/1 FontAwesome;color: #589ded;content:"\f0a3"}
+.logout:before{font:18px/1 FontAwesome;color: #df0d16;content:"\f011"}
+
+.delete-row:before{font:16px/1 FontAwesome;color:#dd6550;content:"\f1f8"}
+
+.responsabilidad-menu:before{font:16px/1 FontAwesome;color: #cdc452;content:"\f06d"}
+.participacion-menu:before{font:16px/1 FontAwesome;color: #b35c42;content:"\f076"}
+
+/* Color Row Grid */
+.x-grid-row-estado-pendiente {
+    background-color: #ffd4db;
+}
+.x-grid-row-estado-ok {
+    background-color: #c6e2fa;
+}
+
+#row-grouping-header {
+    background: #62a8dd;
+    color: #ffffff;
+    border: solid #ccc 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    -webkit-box-shadow: 0 1px 1px #ccc;
+    -moz-box-shadow: 0 1px 1px #ccc;
+    box-shadow: 0 1px 1px #ccc;
+    padding: 5px;
+}

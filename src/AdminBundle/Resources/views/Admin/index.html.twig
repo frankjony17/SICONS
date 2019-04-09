@@ -17,9 +17,26 @@
             name: 'SCS',
             appFolder: '/js/app',
             controllers: [
+                "admin.NomencladorTreeController",
                 "admin.SeguridadTreeController",
                 "admin.AdminController",
-                "admin.UsersController"
+                "nomenclador.EntidadController",
+                "nomenclador.CargoController",
+                "nomenclador.PersonaTipoController",
+                "nomenclador.PersonaController",
+                "nomenclador.ElementoControlTipoController",
+                "nomenclador.ElementoControlController",
+                "nomenclador.AspectosRevizarController",
+                "nomenclador.ConsejoTecnicoController",
+                "nomenclador.ControlCalidadTipoController",
+                "nomenclador.ControlCalidadController",
+                "nomenclador.AspectosServicioIndicadoresController",
+                "nomenclador.ProyectoTipoController",
+                "nomenclador.ObjetosController",
+                "nomenclador.ProyectoEspecialidadController",
+                "nomenclador.EquipoTrabajoEspecialidadController",
+                "nomenclador.EscalasController",
+                "nomenclador.FormatoController"
             ],
             launch: function(){
                 Ext.create('SCS.view.admin.Viewport');

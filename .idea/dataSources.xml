@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="251006841">
+  <component name="DataSourceManagerImpl" format="xml" hash="2562128776">
     <data-source source="LOCAL" name="PostgreSQL - sicons_db@localhost" uuid="57ae1bd3-b31c-45a2-8024-f7625f513e9f">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>

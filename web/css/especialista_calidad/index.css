@@ -1,0 +1,7 @@
+/* Color Row Grid */
+.x-grid-row-estado-pendiente {
+    background-color: #ffd4db;
+}
+.x-grid-row-estado-ok {
+    background-color: #c6e2fa;
+}

@@ -1,0 +1,89 @@
+<?php
+
+namespace NomencladorBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * ProyectoConsejoTecnico
+ *
+ * @ORM\Table(name="proyecto_consejo_tecnico", indexes={@ORM\Index(name="IDX_497ADFE73B162B6B", columns={"consejo_tecnico_id"}), @ORM\Index(name="IDX_497ADFE7F625D1BA", columns={"proyecto_id"})})
+ * @ORM\Entity
+ */
+class ProyectoConsejoTecnico
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="SEQUENCE")
+     * @ORM\SequenceGenerator(sequenceName="proyecto_consejo_tecnico_id_seq", allocationSize=1, initialValue=1)
+     */
+    private $id;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="fecha", type="date", nullable=false)
+     */
+    private $fecha;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="local", type="string", length=75, nullable=false)
+     */
+    private $local;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="observacion", type="text", nullable=true)
+     */
+    private $observacion;
+
+    /**
+     * @var boolean
+     *
+     * @ORM\Column(name="estado", type="boolean", nullable=true)
+     */
+    private $estado;
+
+    /**
+     * @var \ConsejoTecnico
+     *
+     * @ORM\ManyToOne(targetEntity="ConsejoTecnico")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="consejo_tecnico_id", referencedColumnName="id")
+     * })
+     */
+    private $consejoTecnico;
+
+    /**
+     * @var \Proyecto
+     *
+     * @ORM\ManyToOne(targetEntity="Proyecto")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="proyecto_id", referencedColumnName="id")
+     * })
+     */
+    private $proyecto;
+
+    /**
+     * @var \Doctrine\Common\Collections\Collection
+     *
+     * @ORM\ManyToMany(targetEntity="Persona", mappedBy="proyectoConsejoTecnico")
+     */
+    private $persona;
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->persona = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+
+}
+

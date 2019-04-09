@@ -119,10 +119,14 @@ class Validators
         if (!$tableName) {
             throw new \RuntimeException('Please enter a table name.');
         }
-        $tableName = $this->em->getConnection()->fetchAll("SELECT DISTINCT table_name FROM information_schema.columns WHERE table_name = '$tableName'");
+        $tableName = $this->em->getConnection()->fetchAll("SELECT DISTINCT table_name, column_name FROM information_schema.columns WHERE table_name = '$tableName'");
 
         if (count($tableName) > 0) {
-            return strtolower($tableName[0]['table_name']);
+            if (count($tableName) <= 21) {
+                return strtolower($tableName[0]['table_name']);
+            } else {
+                return count($tableName);
+            }
         } else {
             return false;
         }
@@ -143,7 +147,12 @@ class Validators
         return false;
     }
 
-
+    /**
+     * Valid name from application extjs.
+     *
+     * @param $appName
+     * @return bool|string
+     */
     private function isValidApplicationName($appName)
     {
         $count = 0;

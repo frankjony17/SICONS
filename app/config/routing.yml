@@ -1,17 +1,17 @@
 reporte:
     resource: "@ReporteBundle/Controller/"
     type:     annotation
-    prefix:   /reporte/
+    prefix:   /
 
 proyecto:
     resource: "@ProyectoBundle/Controller/"
     type:     annotation
-    prefix:   /proyecto/
+    prefix:   /
 
 nomenclador:
     resource: "@NomencladorBundle/Controller/"
     type:     annotation
-    prefix:   /nomenclador/
+    prefix:   /
 
 admin:
     resource: "@AdminBundle/Controller/"

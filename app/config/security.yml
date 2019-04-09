@@ -1,7 +1,9 @@
 security:
     encoders:
-        AdminBundle\Entity\Users: plaintext
-#            algorithm: plaintext
+        AdminBundle\Entity\Users:
+#            algorithm: bcrypt
+#            cost: 12
+            algorithm: plaintext
 
     providers:
         our_db_provider:
@@ -33,6 +35,9 @@ security:
 
     access_control:
          - { path: ^/admin, roles: ROLE_ADMIN }
-         - { path: ^/reporte, roles: ROLE_USER }
-         - { path: ^/proyecto, roles: ROLE_USER }
-         - { path: ^/nomenclador, roles: ROLE_USER }
+         - { path: ^/reporte, roles: ROLE_ADMIN }
+         - { path: ^/proyecto, roles: [ROLE_JEFE_DISENNO,ROLE_EQUIPO_TRABAJO,ROLE_ESPECIALISTA_CALIDAD] }
+         - { path: ^/equipo/trabajo, roles: ROLE_EQUIPO_TRABAJO }
+         - { path: ^/especialista/calidad, roles: ROLE_ESPECIALISTA_CALIDAD }
+         - { path: ^/revision/contrato, roles: ROLE_ESPECIALISTA_CALIDAD }
+         - { path: ^/nomenclador, roles: [ROLE_ADMIN, ROLE_JEFE_DISENNO] }

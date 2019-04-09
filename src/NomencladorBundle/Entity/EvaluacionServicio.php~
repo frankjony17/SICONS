@@ -1,0 +1,99 @@
+<?php
+
+namespace NomencladorBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * EvaluacionServicio
+ *
+ * @ORM\Table(name="evaluacion_servicio", indexes={@ORM\Index(name="IDX_FBC2B8E7BBC44E4", columns={"aspectos_servicios_indicadores_id"}), @ORM\Index(name="IDX_FBC2B8E5DBF73DB", columns={"evaluacion_servicio_estado_id"}), @ORM\Index(name="IDX_FBC2B8EF625D1BA", columns={"proyecto_id"})})
+ * @ORM\Entity
+ */
+class EvaluacionServicio
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="SEQUENCE")
+     * @ORM\SequenceGenerator(sequenceName="evaluacion_servicio_id_seq", allocationSize=1, initialValue=1)
+     */
+    private $id;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="fecha", type="date", nullable=false)
+     */
+    private $fecha;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="grupo", type="string", nullable=false)
+     */
+    private $grupo;
+
+    /**
+     * @var float
+     *
+     * @ORM\Column(name="calificacion", type="float", precision=10, scale=0, nullable=false)
+     */
+    private $calificacion;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="deficiencias", type="text", nullable=true)
+     */
+    private $deficiencias;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="recomendaciones", type="text", nullable=true)
+     */
+    private $recomendaciones;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="obsevacion", type="text", nullable=true)
+     */
+    private $obsevacion;
+
+    /**
+     * @var \AspectosServicioIndicadores
+     *
+     * @ORM\ManyToOne(targetEntity="AspectosServicioIndicadores")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="aspectos_servicios_indicadores_id", referencedColumnName="id")
+     * })
+     */
+    private $aspectosServiciosIndicadores;
+
+    /**
+     * @var \EvaluacionServicioEstado
+     *
+     * @ORM\ManyToOne(targetEntity="EvaluacionServicioEstado")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="evaluacion_servicio_estado_id", referencedColumnName="id")
+     * })
+     */
+    private $evaluacionServicioEstado;
+
+    /**
+     * @var \Proyecto
+     *
+     * @ORM\ManyToOne(targetEntity="Proyecto")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="proyecto_id", referencedColumnName="id")
+     * })
+     */
+    private $proyecto;
+
+
+}
+

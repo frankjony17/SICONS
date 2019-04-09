@@ -1,0 +1,51 @@
+<?php
+
+namespace NomencladorBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Acuerdos
+ *
+ * @ORM\Table(name="acuerdos", indexes={@ORM\Index(name="IDX_6C81117E7C9C42AE", columns={"proyecto_consejo_tecnico_id"})})
+ * @ORM\Entity
+ */
+class Acuerdos
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="SEQUENCE")
+     * @ORM\SequenceGenerator(sequenceName="acuerdos_id_seq", allocationSize=1, initialValue=1)
+     */
+    private $id;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="numero", type="integer", nullable=false)
+     */
+    private $numero;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="acuerdo", type="text", nullable=false)
+     */
+    private $acuerdo;
+
+    /**
+     * @var \ProyectoConsejoTecnico
+     *
+     * @ORM\ManyToOne(targetEntity="ProyectoConsejoTecnico")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="proyecto_consejo_tecnico_id", referencedColumnName="id")
+     * })
+     */
+    private $proyectoConsejoTecnico;
+
+
+}
+

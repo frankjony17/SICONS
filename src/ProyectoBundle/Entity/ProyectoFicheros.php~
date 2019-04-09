@@ -1,0 +1,209 @@
+<?php
+
+namespace ProyectoBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * ProyectoFicheros
+ *
+ * @ORM\Table(name="proyecto_ficheros", indexes={@ORM\Index(name="IDX_779249C2F625D1BA", columns={"proyecto_id"})})
+ * @ORM\Entity
+ */
+class ProyectoFicheros
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="NONE")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="nombre", type="string", length=45, nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="NONE")
+     */
+    private $nombre;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="ruta", type="string", length=128, nullable=false)
+     */
+    private $ruta;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="extencion", type="string", length=10, nullable=false)
+     */
+    private $extencion;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="descripcion", type="string", length=128, nullable=true)
+     */
+    private $descripcion;
+
+    /**
+     * @var \Proyecto
+     *
+     * @ORM\ManyToOne(targetEntity="Proyecto")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="proyecto_id", referencedColumnName="id")
+     * })
+     */
+    private $proyecto;
+
+
+
+    /**
+     * Set id
+     *
+     * @param integer $id
+     *
+     * @return ProyectoFicheros
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+
+        return $this;
+    }
+
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set nombre
+     *
+     * @param string $nombre
+     *
+     * @return ProyectoFicheros
+     */
+    public function setNombre($nombre)
+    {
+        $this->nombre = $nombre;
+
+        return $this;
+    }
+
+    /**
+     * Get nombre
+     *
+     * @return string
+     */
+    public function getNombre()
+    {
+        return $this->nombre;
+    }
+
+    /**
+     * Set ruta
+     *
+     * @param string $ruta
+     *
+     * @return ProyectoFicheros
+     */
+    public function setRuta($ruta)
+    {
+        $this->ruta = $ruta;
+
+        return $this;
+    }
+
+    /**
+     * Get ruta
+     *
+     * @return string
+     */
+    public function getRuta()
+    {
+        return $this->ruta;
+    }
+
+    /**
+     * Set extencion
+     *
+     * @param string $extencion
+     *
+     * @return ProyectoFicheros
+     */
+    public function setExtencion($extencion)
+    {
+        $this->extencion = $extencion;
+
+        return $this;
+    }
+
+    /**
+     * Get extencion
+     *
+     * @return string
+     */
+    public function getExtencion()
+    {
+        return $this->extencion;
+    }
+
+    /**
+     * Set descripcion
+     *
+     * @param string $descripcion
+     *
+     * @return ProyectoFicheros
+     */
+    public function setDescripcion($descripcion)
+    {
+        $this->descripcion = $descripcion;
+
+        return $this;
+    }
+
+    /**
+     * Get descripcion
+     *
+     * @return string
+     */
+    public function getDescripcion()
+    {
+        return $this->descripcion;
+    }
+
+    /**
+     * Set proyecto
+     *
+     * @param \ProyectoBundle\Entity\Proyecto $proyecto
+     *
+     * @return ProyectoFicheros
+     */
+    public function setProyecto(\ProyectoBundle\Entity\Proyecto $proyecto = null)
+    {
+        $this->proyecto = $proyecto;
+
+        return $this;
+    }
+
+    /**
+     * Get proyecto
+     *
+     * @return \ProyectoBundle\Entity\Proyecto
+     */
+    public function getProyecto()
+    {
+        return $this->proyecto;
+    }
+}

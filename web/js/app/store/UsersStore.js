@@ -2,7 +2,7 @@
 Ext.define('SCS.store.UsersStore', {
     extend: 'Ext.data.Store',
     /* Config */
-    fields: ["id","username","password","email","is_active"],
+    fields: ["id","username","password","email","date_last_login","is_active"],
     autoLoad: true,
     sorters: 'username',
     proxy : {

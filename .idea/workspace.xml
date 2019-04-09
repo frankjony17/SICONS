@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="8" />
-    <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="c4d0af12-5782-4eb6-a58b-ba666955ee2b" name="Default" comment="" />
     <ignored path="SICONS.iws" />
@@ -48,13 +44,180 @@
         <option name="myItemId" value="PostgreSQL - sicons_db@localhost" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="sicons_db.public" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="tarea_proyeccion" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - sicons_db@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
     </PATH>
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="SICONS" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="ConsejoTecnicoController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ProyectoBundle/Controller/ConsejoTecnicoController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5555556">
+              <caret line="314" column="91" selection-start-line="314" selection-start-column="91" selection-end-line="314" selection-end-column="91" />
+              <folding>
+                <element signature="e#45#80#0#PHP" expanded="true" />
+                <element signature="e#477#609#0#PHP" expanded="false" />
+                <element signature="e#818#847#1#PHP" expanded="true" />
+                <element signature="e#927#966#1#PHP" expanded="true" />
+                <element signature="e#1474#1593#0#PHP" expanded="false" />
+                <element signature="e#1791#1816#1#PHP" expanded="true" />
+                <element signature="e#1896#1935#1#PHP" expanded="true" />
+                <element signature="e#2686#2725#1#PHP" expanded="true" />
+                <element signature="e#3276#3416#0#PHP" expanded="false" />
+                <element signature="e#3421#4390#0#PHP" expanded="false" />
+                <element signature="e#3609#3648#1#PHP" expanded="true" />
+                <element signature="e#3710#3735#1#PHP" expanded="true" />
+                <element signature="e#4396#4527#0#PHP" expanded="false" />
+                <element signature="e#4532#5391#0#PHP" expanded="false" />
+                <element signature="e#4699#4738#1#PHP" expanded="true" />
+                <element signature="e#4803#4828#1#PHP" expanded="true" />
+                <element signature="e#4912#4946#1#PHP" expanded="true" />
+                <element signature="e#5397#5513#0#PHP" expanded="false" />
+                <element signature="e#5518#6405#0#PHP" expanded="false" />
+                <element signature="e#5710#5749#1#PHP" expanded="true" />
+                <element signature="e#5895#5920#1#PHP" expanded="true" />
+                <element signature="e#6012#6046#1#PHP" expanded="true" />
+                <element signature="e#6411#6537#0#PHP" expanded="false" />
+                <element signature="e#6542#7397#0#PHP" expanded="false" />
+                <element signature="e#6688#6715#1#PHP" expanded="true" />
+                <element signature="e#6800#6839#1#PHP" expanded="true" />
+                <element signature="e#6930#6959#1#PHP" expanded="true" />
+                <element signature="e#7097#7358#0#PHP" expanded="false" />
+                <element signature="e#7403#7531#0#PHP" expanded="false" />
+                <element signature="e#7536#7906#0#PHP" expanded="false" />
+                <element signature="e#7687#7716#1#PHP" expanded="true" />
+                <element signature="e#7912#8044#0#PHP" expanded="false" />
+                <element signature="e#8049#8352#0#PHP" expanded="false" />
+                <element signature="e#8202#8231#1#PHP" expanded="true" />
+                <element signature="e#8358#8474#0#PHP" expanded="false" />
+                <element signature="e#8479#9044#0#PHP" expanded="false" />
+                <element signature="e#8661#8686#1#PHP" expanded="true" />
+                <element signature="e#8866#8905#1#PHP" expanded="true" />
+                <element signature="e#9050#9168#0#PHP" expanded="false" />
+                <element signature="e#9173#9507#0#PHP" expanded="false" />
+                <element signature="e#9314#9339#1#PHP" expanded="true" />
+                <element signature="e#9513#9635#0#PHP" expanded="false" />
+                <element signature="e#9640#9924#0#PHP" expanded="false" />
+                <element signature="e#9783#9808#1#PHP" expanded="true" />
+                <element signature="e#10209#10236#1#PHP" expanded="true" />
+                <element signature="e#10321#10360#1#PHP" expanded="true" />
+                <element signature="e#10964#10991#1#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsejoTecnicoController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/app/controller/proyecto/ConsejoTecnicoController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="89" column="53" selection-start-line="89" selection-start-column="53" selection-end-line="89" selection-end-column="53" />
+              <folding>
+                <element signature="e#836#884#0" expanded="false" />
+                <element signature="e#928#986#0" expanded="false" />
+                <element signature="e#1032#1080#0" expanded="false" />
+                <element signature="e#1136#1183#0" expanded="false" />
+                <element signature="e#1232#1281#0" expanded="false" />
+                <element signature="e#1330#1379#0" expanded="false" />
+                <element signature="e#1415#1466#0" expanded="false" />
+                <element signature="e#1502#1615#0" expanded="false" />
+                <element signature="e#1651#1686#0" expanded="false" />
+                <element signature="e#1732#1841#0" expanded="false" />
+                <element signature="e#1892#1944#0" expanded="false" />
+                <element signature="e#1997#2051#0" expanded="false" />
+                <element signature="e#2115#2236#0" expanded="false" />
+                <element signature="e#4140#4511#0" expanded="false" />
+                <element signature="e#4560#5338#0" expanded="false" />
+                <element signature="e#5401#5977#0" expanded="false" />
+                <element signature="e#6035#6590#0" expanded="false" />
+                <element signature="e#6633#7087#0" expanded="false" />
+                <element signature="e#7146#7447#0" expanded="false" />
+                <element signature="e#7477#8068#0" expanded="false" />
+                <element signature="e#8121#8659#0" expanded="false" />
+                <element signature="e#8697#9139#0" expanded="false" />
+                <element signature="e#10477#10573#0" expanded="false" />
+                <element signature="e#10907#11110#0" expanded="false" />
+                <element signature="e#11151#11275#0" expanded="false" />
+                <element signature="e#11311#11397#0" expanded="false" />
+                <marker date="1460417371233" expanded="true" signature="4359:4369" placeholder="..." />
+                <marker date="1460417371233" expanded="true" signature="4446:4456" placeholder="..." />
+                <marker date="1460417371233" expanded="true" signature="7295:7305" placeholder="..." />
+                <marker date="1460417371233" expanded="true" signature="7382:7392" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParticipantesGrid.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/consejotecnico/ParticipantesGrid.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="91" column="51" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParticipantesStore.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/app/store/consejotecnico/ParticipantesStore.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntervencionesGrid.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/consejotecnico/IntervencionesGrid.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="90" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsejoTecnicoPanel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/consejotecnico/ConsejoTecnicoPanel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="132" column="39" selection-start-line="132" selection-start-column="24" selection-end-line="132" selection-end-column="39" />
+              <folding>
+                <element signature="e#595#3843#0" expanded="false" />
+                <element signature="e#730#3832#0" expanded="false" />
+                <element signature="e#3496#3817#0" expanded="false" />
+                <element signature="e#3636#3798#0" expanded="false" />
+                <marker date="1460402984685" expanded="true" signature="1392:1419" placeholder="..." />
+                <marker date="1460402984685" expanded="true" signature="2720:2747" placeholder="..." />
+                <marker date="1460402984685" expanded="true" signature="4862:4889" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,57 +230,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/js/app/store/PersonaTipoStore.js" />
-        <option value="$PROJECT_DIR$/web/js/app/view/admin/persona/PersonaForm.js" />
-        <option value="$PROJECT_DIR$/web/js/app/view/admin/persona/PersonaGrid.js" />
-        <option value="$PROJECT_DIR$/web/js/app/controller/admin/PersonaController.js" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/field/numberfield" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/field/datefield" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/field/textareafield" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/field/textfield" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/field/timefield" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/ControllerTemplate.php" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/GridTemplate.js" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/StoreTemplate.js" />
-        <option value="$PROJECT_DIR$/src/AdminBundle/Controller/AdminController.php" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Services/Util.php" />
-        <option value="$PROJECT_DIR$/src/AdminBundle/Controller/PersonaController.php" />
-        <option value="$PROJECT_DIR$/src/AdminBundle/Controller/RolesController.php" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Template/ControllerPHPTemplate.php" />
-        <option value="$PROJECT_DIR$/src/AdminBundle/Resources/views/Admin/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Template/GridTemplate.php" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/field/combobox" />
-        <option value="$PROJECT_DIR$/web/js/app/view/admin/users/UsersForm.js" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/field/booleanfield" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/ControllerTemplate.js" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Services/Generator.php" />
-        <option value="$PROJECT_DIR$/web/js/app/controller/admin/UsersController.js" />
-        <option value="$PROJECT_DIR$/src/AdminBundle/Controller/UsersController.php" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate1.js" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate2.js" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Template/FormTemplate.php" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Template/ControllerJSTemplate.php" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Template/StoreTemplate.php" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/ControllerTemplate" />
-        <option value="$PROJECT_DIR$/web/js/app/controller/admin/SeguridadTreeController.js" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate3.js" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate4.js" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate5.js" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate6.js" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate7.js" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate8.js" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate9.js" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate10.js" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate11.js" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate12.js" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate13.js" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate14.js" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate15.js" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate16.js" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate17.js" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate18.js" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate19.js" />
-        <option value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate20.js" />
+        <option value="$PROJECT_DIR$/web/js/app/view/jefedisenno/tareaproyeccion/ProyectoTareaProyeccionForm.js" />
+        <option value="$PROJECT_DIR$/src/ProyectoBundle/Controller/TareaProyeccionController.php" />
+        <option value="$PROJECT_DIR$/web/js/app/controller/proyecto/TareaProyeccionController.js" />
+        <option value="$PROJECT_DIR$/web/css/jefe_disenno/index.css" />
+        <option value="$PROJECT_DIR$/web/js/app/store/ProyectoPlanCalidadStore.js" />
+        <option value="$PROJECT_DIR$/web/js/app/view/jefedisenno/plancalidad/ProyectoPlanCalidadGrid.js" />
+        <option value="$PROJECT_DIR$/web/js/app/view/jefedisenno/plancalidad/ProyectoPlanCalidadForm.js" />
+        <option value="$PROJECT_DIR$/src/ProyectoBundle/Entity/PlanCalidad.php" />
+        <option value="$PROJECT_DIR$/web/js/app/controller/proyecto/PlanCalidadProyectoController.js" />
+        <option value="$PROJECT_DIR$/web/js/app/controller/proyecto/TareaProyeccionProyectoController.js" />
+        <option value="$PROJECT_DIR$/web/js/app/store/PlanCalidadStore.js" />
+        <option value="$PROJECT_DIR$/web/js/app/view/jefedisenno/tareaproyeccion/TareaProyeccionGrid.js" />
+        <option value="$PROJECT_DIR$/web/js/app/view/jefedisenno/plancalidad/PlanCalidadGrid.js" />
+        <option value="$PROJECT_DIR$/web/js/app/controller/proyecto/PlanCalidadController.js" />
+        <option value="$PROJECT_DIR$/src/ProyectoBundle/Controller/PlanCalidadController.php" />
+        <option value="$PROJECT_DIR$/web/js/app/view/equipotrabajo/Viewport.js" />
+        <option value="$PROJECT_DIR$/src/AdminBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/ProyectoBundle/Resources/views/EquipoTrabajo/index.html.twig" />
+        <option value="$PROJECT_DIR$/web/js/app/controller/proyecto/ViewportEquipoTrabajoController.js" />
+        <option value="$PROJECT_DIR$/web/js/app/view/equipotrabajo/tareaproyeccion/TareaProyeccionGrid.js" />
+        <option value="$PROJECT_DIR$/web/css/equipo_trabajo/index.css" />
+        <option value="$PROJECT_DIR$/web/js/app/view/especialistacalidad/Viewport.js" />
+        <option value="$PROJECT_DIR$/web/js/app/view/especialistacalidad/RevisionContratoGrid.js" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
+        <option value="$PROJECT_DIR$/web/js/app/store/RevisionContratoStore.js" />
+        <option value="$PROJECT_DIR$/src/ProyectoBundle/Entity/RevisionContrato.php" />
+        <option value="$PROJECT_DIR$/src/ProyectoBundle/Resources/views/EspecialistaCalidad/index.html.twig" />
+        <option value="$PROJECT_DIR$/web/js/app/controller/proyecto/ViewportEspecialistaCalidadController.js" />
+        <option value="$PROJECT_DIR$/web/js/app/view/especialistacalidad/revisioncontrato/RevisionContratoGrid.js" />
+        <option value="$PROJECT_DIR$/web/js/app/controller/proyecto/RevisionContratoController.js" />
+        <option value="$PROJECT_DIR$/src/ProyectoBundle/Controller/RevisionContratoController.php" />
+        <option value="$PROJECT_DIR$/web/js/app/controller/proyecto/ViewportController.js" />
+        <option value="$PROJECT_DIR$/src/ProyectoBundle/Resources/views/JefeDisenno/index.html.twig" />
+        <option value="$PROJECT_DIR$/web/js/app/store/consejotecnico/ConsejoTecnicoStore.js" />
+        <option value="$PROJECT_DIR$/web/js/app/view/nomenclador/cargo/CargoForm.js" />
+        <option value="$PROJECT_DIR$/src/ProyectoBundle/Entity/Intervencion.php" />
+        <option value="$PROJECT_DIR$/web/js/app/store/consejotecnico/IntervencionesStore.js" />
+        <option value="$PROJECT_DIR$/web/js/app/view/jefedisenno/Viewport.js" />
+        <option value="$PROJECT_DIR$/web/js/app/store/consejotecnico/AcuerdosStore.js" />
+        <option value="$PROJECT_DIR$/web/js/app/store/consejotecnico/AcuerdoStore.js" />
+        <option value="$PROJECT_DIR$/web/js/app/store/consejotecnico/ParticipantesStore.js" />
+        <option value="$PROJECT_DIR$/web/js/app/view/jefedisenno/consejotecnico/ConsejoTecnicoPanel.js" />
+        <option value="$PROJECT_DIR$/src/NomencladorBundle/Controller/PersonaController.php" />
+        <option value="$PROJECT_DIR$/web/js/app/store/consejotecnico/IntervencionStore.js" />
+        <option value="$PROJECT_DIR$/web/js/app/view/jefedisenno/consejotecnico/IntervencionesGrid.js" />
+        <option value="$PROJECT_DIR$/src/ProyectoBundle/Entity/ProyectoRepository.php" />
+        <option value="$PROJECT_DIR$/web/js/app/view/jefedisenno/consejotecnico/AcuerdosGrid.js" />
+        <option value="$PROJECT_DIR$/web/js/app/view/jefedisenno/consejotecnico/ParticipantesGrid.js" />
+        <option value="$PROJECT_DIR$/src/ProyectoBundle/Entity/ProyectoConsejoTecnico.php" />
+        <option value="$PROJECT_DIR$/web/js/app/controller/proyecto/ConsejoTecnicoController.js" />
+        <option value="$PROJECT_DIR$/src/ProyectoBundle/Controller/ConsejoTecnicoController.php" />
       </list>
     </option>
   </component>
@@ -133,10 +296,32 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="-4" />
-    <option name="width" value="1374" />
-    <option name="height" value="732" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JSValidateTypes</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -161,7 +346,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -238,8 +422,136 @@
               <option name="myItemId" value="view" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="SICONS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SICONS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jefedisenno" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SICONS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SICONS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jefedisenno" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proyecto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SICONS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SICONS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jefedisenno" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plancalidad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SICONS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SICONS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jefedisenno" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="consejotecnico" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -291,11 +603,77 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="consejotecnico" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SICONS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SICONS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
+              <option name="myItemId" value="SICONS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SICONS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jefe_disenno" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SICONS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SICONS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -327,7 +705,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CrudExtJSBundle" />
+              <option name="myItemId" value="ProyectoBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,51 +723,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CrudExtJSBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CrudExtJSBundle" />
+              <option name="myItemId" value="ProyectoBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AdminBundle" />
+              <option name="myItemId" value="JefeDisenno" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -407,7 +753,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AdminBundle" />
+              <option name="myItemId" value="ProyectoBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EspecialistaCalidad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SICONS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SICONS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProyectoBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -433,37 +809,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AdminBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AdminBundle" />
+              <option name="myItemId" value="ProyectoBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -485,7 +831,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AdminBundle" />
+              <option name="myItemId" value="ProyectoBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SICONS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SICONS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProyectoBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -495,32 +863,32 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VIVIENDA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="dynamic.classpath" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="FullScreen" value="false" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/items/item15" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Proyects\Symfony_2\SICONS\src\CrudExtJSBundle\Template" />
-      <recent name="D:\Proyects\Symfony_2\SICONS\src\CrudExtJSBundle\Resources\template" />
-      <recent name="D:\Proyectos\Symfony_2\SICONS\src\CrudExtJSBundle\Resources\template" />
-      <recent name="D:\Proyectos\Symfony_2\SICONS\src\CrudExtJSBundle\Resources\template\field" />
-      <recent name="D:\Proyectos\Symfony_2\SICONS\src\CrudExtJSBundle\Services" />
+      <recent name="D:\Proyects\Symfony_2\SICONS\web\js\app\view\jefedisenno\consejotecnico" />
+      <recent name="D:\Proyects\Symfony_2\SICONS\web\js\app\store\consejotecnico" />
+      <recent name="D:\Proyectos\Symfony_2\SICONS\web\js\app\store\consejotecnico" />
+      <recent name="D:\Proyectos\Symfony_2\SICONS\src\ProyectoBundle\Controller" />
+      <recent name="D:\Proyectos\Symfony_2\SICONS\web\js\app\view\jefedisenno\consejotecnico" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Proyectos\Symfony_2\SICONS\src\CrudExtJSBundle\Resources\template\field" />
-      <recent name="D:\Proyects\Symfony_2\SICONS\src\CrudExtJSBundle" />
-      <recent name="D:\Proyects\Symfony_2\SICONS\src\CrudExtJSBundle\Services" />
+      <recent name="D:\Proyectos\Symfony_2\SICONS\web\js\app\view\especialistacalidad\revisioncontrato" />
+      <recent name="D:\Proyects\Symfony_2\SICONS\src\NomencladorBundle\Entity" />
       <recent name="D:\Proyects\Symfony_2\SICONS\src\AdminBundle\Controller" />
-      <recent name="D:\Proyects\Symfony_2\SICONS\src\AdminBundle\Resources\config" />
+      <recent name="D:\Proyectos\Symfony_2\SICONS\web\js\app\view\admin\users1" />
+      <recent name="D:\Proyects\Symfony_2\SICONS\src\CrudExtJSBundle" />
     </key>
   </component>
   <component name="RunManager">
@@ -565,26 +933,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="732" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29198185" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2708018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Symfony2" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961948" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.71060604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.625" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.398773" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -594,19 +962,19 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.398773" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.71060604" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39107412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.625" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2708018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Symfony2" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961948" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -623,275 +991,219 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Template/GridTemplate.php">
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/equipotrabajo/tareaproyeccion/TareaProyeccionGrid.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23697479">
-          <caret line="120" column="49" selection-start-line="120" selection-start-column="49" selection-end-line="120" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.03529412">
+          <caret line="1" column="70" selection-start-line="0" selection-start-column="0" selection-end-line="107" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../PCDT/web/js/app/controller/nomenclador/CargoController.js">
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/proyecto/ProyectoForm5Edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38510302">
-          <caret line="45" column="9" selection-start-line="39" selection-start-column="8" selection-end-line="45" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PCDT/web/js/app/view/indicador/especialista/arc/ArcForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PCDT/web/js/app/controller/indicador/ArcController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="17" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Template/ControllerPHPTemplate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#277#377#0#PHP" expanded="false" />
-            <element signature="e#382#514#0#PHP" expanded="false" />
-            <element signature="e#520#581#0#PHP" expanded="false" />
-            <element signature="e#586#688#0#PHP" expanded="false" />
-            <element signature="e#694#755#0#PHP" expanded="false" />
-            <element signature="e#760#862#0#PHP" expanded="false" />
-            <element signature="e#868#928#0#PHP" expanded="false" />
-            <element signature="e#933#1031#0#PHP" expanded="false" />
-            <element signature="e#1037#1151#0#PHP" expanded="false" />
-            <element signature="e#1156#1818#0#PHP" expanded="false" />
-            <element signature="e#1824#1917#0#PHP" expanded="false" />
-            <element signature="e#1922#3421#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../nw/DTG/views/util/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="75" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="75" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <marker date="1453669284000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PCDT/web/js/app/view/tarea_operativa/especialista/tarea/TareaForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.2583203">
+        <state vertical-scroll-proportion="-1.0117648">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../PCDT/web/js/app/view/indicador/especialista/cm/CriterioMedidaForm.js">
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/proyecto/ProyectoForm4Edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6212363">
+        <state vertical-scroll-proportion="-1.3764706">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../nw/DTG/views/view/organismo/OrganismoForm.js">
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/proyecto/ProyectoForm3Edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="79" column="27" selection-start-line="77" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
-          <folding>
-            <marker date="1424110601754" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424110601754" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../nw/DTG/views/view/persona/PersonaForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5293186">
-          <caret line="183" column="27" selection-start-line="183" selection-start-column="27" selection-end-line="183" selection-end-column="27" />
-          <folding>
-            <marker date="1424114172704" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424114172704" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424114172704" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424114172704" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Entity/Users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5">
-          <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/field/booleanfield">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4043261">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/field/combobox">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26955074">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../nw/DTG/views/controller/EmpresaController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-1.6941177">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1450736450000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1450736450000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../nw/DTG/views/controller/BaseController.js">
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="6" selection-start-line="57" selection-start-column="4" selection-end-line="60" selection-end-column="6" />
-          <folding>
-            <marker date="1455589955676" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1455589955676" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../PCDT/web/js/app/controller/nomenclador/AreaController.js">
+    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Controller/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="147" column="16" selection-start-line="123" selection-start-column="12" selection-end-line="147" selection-end-column="16" />
-          <folding>
-            <marker date="1439303676000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1439303676000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.2956327">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AdminBundle/Controller/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41008404">
-          <caret line="78" column="45" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
-          <folding>
-            <element signature="e#572#591#1#PHP" expanded="true" />
-            <element signature="e#1354#1373#1#PHP" expanded="true" />
-            <element signature="e#2369#2388#1#PHP" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-1.4412094">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/view/admin/Viewport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7432647">
-          <caret line="36" column="32" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/ControllerTemplate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4437401">
-          <caret line="102" column="27" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="27" />
-          <folding>
-            <element signature="e#3400#3730#0" expanded="false" />
-            <marker date="1456936158819" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1456936158819" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/GridTemplate.js">
+    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Controller/SecuredController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProyectoBundle/Entity/RevisionContrato.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3325868">
+          <caret line="9" column="122" selection-start-line="9" selection-start-column="122" selection-end-line="9" selection-end-column="122" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Template/FormTemplate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.0">
-          <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
-          <folding>
-            <element signature="e#9994#10135#0#PHP" expanded="false" />
-            <element signature="e#10141#10868#0#PHP" expanded="false" />
-            <element signature="e#10254#10837#0#PHP" expanded="false" />
-            <element signature="e#10309#10444#0#PHP" expanded="false" />
-            <element signature="e#10461#10837#0#PHP" expanded="false" />
-            <element signature="e#10515#10678#0#PHP" expanded="false" />
-            <element signature="e#10690#10837#0#PHP" expanded="false" />
-            <element signature="e#10719#10826#0#PHP" expanded="false" />
-            <element signature="e#10874#10977#0#PHP" expanded="false" />
-            <element signature="e#10982#11272#0#PHP" expanded="false" />
-            <element signature="e#11105#11243#0#PHP" expanded="false" />
-            <element signature="e#11151#11233#0#PHP" expanded="false" />
-            <marker date="1456938462653" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Template/ControllerJSTemplate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3333335">
-          <caret line="88" column="33" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
-          <folding>
-            <element signature="e#313#373#0#PHP" expanded="false" />
-            <element signature="e#378#476#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Services/Generator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.0">
-          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
-          <folding>
-            <element signature="e#2540#3250#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Template/StoreTemplate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3333335">
-          <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/ControllerTemplate">
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/especialistacalidad/Viewport.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="71" column="45" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
+          <caret line="37" column="64" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/view/admin/roles/RolesGrid.js">
+    <entry file="file://$PROJECT_DIR$/src/ProyectoBundle/Resources/views/EspecialistaCalidad/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.047619">
+          <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+          <folding>
+            <element signature="e#13#29#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/especialistacalidad/revisioncontrato/RevisionContratoGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="35" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/controller/proyecto/RevisionContratoController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/nomenclador/cargo/CargoGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5764706">
+          <caret line="24" column="24" selection-start-line="21" selection-start-column="8" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NomencladorBundle/Entity/ConsejoTecnico.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34826428">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NomencladorBundle/Controller/CargoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44344905">
+          <caret line="32" column="92" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProyectoBundle/Resources/views/JefeDisenno/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52967525">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/store/ConsejoTecnicoStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/nomenclador/consejo_tecnico/ConsejoTecnicoForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.42352942">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/nomenclador/elemento_control/ElementoControlForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5647059">
+          <caret line="52" column="13" selection-start-line="24" selection-start-column="19" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProyectoBundle/Entity/Intervencion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.7777777">
+          <caret line="44" column="80" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/Viewport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/controller/proyecto/ViewportController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/store/consejotecnico/AcuerdoStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/nomenclador/cargo/CargoForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="33" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NomencladorBundle/Entity/Persona.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4444444">
+          <caret line="143" column="38" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProyectoBundle/Controller/ProyectoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3888889">
+          <caret line="155" column="9" selection-start-line="150" selection-start-column="8" selection-end-line="155" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/store/PersonaTipoStore.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
@@ -899,191 +1211,293 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AdminBundle/Resources/views/Admin/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/web/js/app/store/PersonaStore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.7777777">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/controller/admin/SeguridadTreeController.js">
+    <entry file="file://$PROJECT_DIR$/src/NomencladorBundle/Controller/PersonaController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="73" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.44444445">
+          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../nw/DTG/views/view/empresa/EmpresaForm.js">
+    <entry file="file://$PROJECT_DIR$/web/js/app/controller/proyecto/ProyectoGridController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="37" selection-start-line="34" selection-start-column="33" selection-end-line="35" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.3137255">
+          <caret line="93" column="70" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="70" />
           <folding>
-            <marker date="1424113473232" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424113473232" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1424113473232" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1460310024070" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1460310024070" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1460310024070" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1460310024070" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate1.js">
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/common/lib/Doctrine/Common/Persistence/ObjectRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.35416666">
+          <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate2.js">
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/plancalidad/PlanCalidadGrid.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+          <folding>
+            <element signature="e#776#974#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/controller/proyecto/PlanCalidadController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="10" selection-start-line="5" selection-start-column="8" selection-end-line="9" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate4.js">
+    <entry file="file://$PROJECT_DIR$/web/js/app/store/consejotecnico/IntervencionStore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="31" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.26143792">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate3.js">
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/proyecto/ProyectoForm2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.1633987">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate5.js">
+    <entry file="file://$PROJECT_DIR$/web/js/app/controller/proyecto/ProyectoFormController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.49019608">
+          <caret line="229" column="55" selection-start-line="229" selection-start-column="44" selection-end-line="229" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate6.js">
+    <entry file="file://$PROJECT_DIR$/web/js/app/controller/nomenclador/CargoController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.5751634">
+          <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="114" selection-end-column="11" />
+          <folding>
+            <marker date="1457278103382" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1457278103382" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/jefe_disenno/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47058824">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate7.js">
+    <entry file="file://$PROJECT_DIR$/src/ProyectoBundle/Entity/ProyectoRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.888889">
+          <caret line="191" column="23" selection-start-line="191" selection-start-column="23" selection-end-line="191" selection-end-column="23" />
+          <folding>
+            <element signature="e#5817#5847#0#PHP" expanded="false" />
+            <element signature="e#6343#7784#0#PHP" expanded="false" />
+            <marker date="1460414031977" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..ProyectoBundle..." />
+            <marker date="1460414031977" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..ProyectoBundle..." />
+            <marker date="1460414031977" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..ProyectoBundle..." />
+            <marker date="1460414031977" expanded="true" signature="-1:-1" placeholder="SELECT MAX(n..acuerdos..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/consejotecnico/AcuerdosGrid.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+          <caret line="58" column="38" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="38" />
+          <folding>
+            <marker date="1460414777904" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/consejotecnico/ConsejoTecnicoPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="132" column="39" selection-start-line="132" selection-start-column="24" selection-end-line="132" selection-end-column="39" />
+          <folding>
+            <element signature="e#595#3843#0" expanded="false" />
+            <element signature="e#730#3832#0" expanded="false" />
+            <element signature="e#3496#3817#0" expanded="false" />
+            <element signature="e#3636#3798#0" expanded="false" />
+            <marker date="1460402984685" expanded="true" signature="1392:1419" placeholder="..." />
+            <marker date="1460402984685" expanded="true" signature="2720:2747" placeholder="..." />
+            <marker date="1460402984685" expanded="true" signature="4862:4889" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/consejotecnico/IntervencionesGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="90" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate8.js">
+    <entry file="file://$PROJECT_DIR$/src/ProyectoBundle/Entity/Acuerdos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.35416666">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate9.js">
+    <entry file="file://$PROJECT_DIR$/web/js/app/store/consejotecnico/ParticipantesStore.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate10.js">
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/collections/lib/Doctrine/Common/Collections/ArrayCollection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.35416666">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate11.js">
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/consejotecnico/ParticipantesGrid.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
+          <caret line="91" column="51" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate12.js">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_8.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="37" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.5208333">
+          <caret line="838" column="9" selection-start-line="838" selection-start-column="9" selection-end-line="838" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate13.js">
+    <entry file="file://$PROJECT_DIR$/web/js/app/controller/proyecto/ConsejoTecnicoController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+          <caret line="89" column="53" selection-start-line="89" selection-start-column="53" selection-end-line="89" selection-end-column="53" />
+          <folding>
+            <element signature="e#836#884#0" expanded="false" />
+            <element signature="e#928#986#0" expanded="false" />
+            <element signature="e#1032#1080#0" expanded="false" />
+            <element signature="e#1136#1183#0" expanded="false" />
+            <element signature="e#1232#1281#0" expanded="false" />
+            <element signature="e#1330#1379#0" expanded="false" />
+            <element signature="e#1415#1466#0" expanded="false" />
+            <element signature="e#1502#1615#0" expanded="false" />
+            <element signature="e#1651#1686#0" expanded="false" />
+            <element signature="e#1732#1841#0" expanded="false" />
+            <element signature="e#1892#1944#0" expanded="false" />
+            <element signature="e#1997#2051#0" expanded="false" />
+            <element signature="e#2115#2236#0" expanded="false" />
+            <element signature="e#4140#4511#0" expanded="false" />
+            <element signature="e#4560#5338#0" expanded="false" />
+            <element signature="e#5401#5977#0" expanded="false" />
+            <element signature="e#6035#6590#0" expanded="false" />
+            <element signature="e#6633#7087#0" expanded="false" />
+            <element signature="e#7146#7447#0" expanded="false" />
+            <element signature="e#7477#8068#0" expanded="false" />
+            <element signature="e#8121#8659#0" expanded="false" />
+            <element signature="e#8697#9139#0" expanded="false" />
+            <element signature="e#10477#10573#0" expanded="false" />
+            <element signature="e#10907#11110#0" expanded="false" />
+            <element signature="e#11151#11275#0" expanded="false" />
+            <element signature="e#11311#11397#0" expanded="false" />
+            <marker date="1460417371233" expanded="true" signature="4359:4369" placeholder="..." />
+            <marker date="1460417371233" expanded="true" signature="4446:4456" placeholder="..." />
+            <marker date="1460417371233" expanded="true" signature="7295:7305" placeholder="..." />
+            <marker date="1460417371233" expanded="true" signature="7382:7392" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProyectoBundle/Entity/ProyectoConsejoTecnico.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.166667">
+          <caret line="75" column="61" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate14.js">
+    <entry file="file://$PROJECT_DIR$/src/ProyectoBundle/Controller/ConsejoTecnicoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="82" column="37" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate15.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="82" column="37" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate16.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="37" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate17.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="37" selection-start-line="84" selection-start-column="37" selection-end-line="84" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate18.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="93" column="28" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate19.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="97" column="37" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrudExtJSBundle/Resources/template/FormTemplate20.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6846276">
-          <caret line="100" column="37" selection-start-line="100" selection-start-column="37" selection-end-line="100" selection-end-column="37" />
-          <folding />
+        <state vertical-scroll-proportion="0.5555556">
+          <caret line="314" column="91" selection-start-line="314" selection-start-column="91" selection-end-line="314" selection-end-column="91" />
+          <folding>
+            <element signature="e#45#80#0#PHP" expanded="true" />
+            <element signature="e#477#609#0#PHP" expanded="false" />
+            <element signature="e#818#847#1#PHP" expanded="true" />
+            <element signature="e#927#966#1#PHP" expanded="true" />
+            <element signature="e#1474#1593#0#PHP" expanded="false" />
+            <element signature="e#1791#1816#1#PHP" expanded="true" />
+            <element signature="e#1896#1935#1#PHP" expanded="true" />
+            <element signature="e#2686#2725#1#PHP" expanded="true" />
+            <element signature="e#3276#3416#0#PHP" expanded="false" />
+            <element signature="e#3421#4390#0#PHP" expanded="false" />
+            <element signature="e#3609#3648#1#PHP" expanded="true" />
+            <element signature="e#3710#3735#1#PHP" expanded="true" />
+            <element signature="e#4396#4527#0#PHP" expanded="false" />
+            <element signature="e#4532#5391#0#PHP" expanded="false" />
+            <element signature="e#4699#4738#1#PHP" expanded="true" />
+            <element signature="e#4803#4828#1#PHP" expanded="true" />
+            <element signature="e#4912#4946#1#PHP" expanded="true" />
+            <element signature="e#5397#5513#0#PHP" expanded="false" />
+            <element signature="e#5518#6405#0#PHP" expanded="false" />
+            <element signature="e#5710#5749#1#PHP" expanded="true" />
+            <element signature="e#5895#5920#1#PHP" expanded="true" />
+            <element signature="e#6012#6046#1#PHP" expanded="true" />
+            <element signature="e#6411#6537#0#PHP" expanded="false" />
+            <element signature="e#6542#7397#0#PHP" expanded="false" />
+            <element signature="e#6688#6715#1#PHP" expanded="true" />
+            <element signature="e#6800#6839#1#PHP" expanded="true" />
+            <element signature="e#6930#6959#1#PHP" expanded="true" />
+            <element signature="e#7097#7358#0#PHP" expanded="false" />
+            <element signature="e#7403#7531#0#PHP" expanded="false" />
+            <element signature="e#7536#7906#0#PHP" expanded="false" />
+            <element signature="e#7687#7716#1#PHP" expanded="true" />
+            <element signature="e#7912#8044#0#PHP" expanded="false" />
+            <element signature="e#8049#8352#0#PHP" expanded="false" />
+            <element signature="e#8202#8231#1#PHP" expanded="true" />
+            <element signature="e#8358#8474#0#PHP" expanded="false" />
+            <element signature="e#8479#9044#0#PHP" expanded="false" />
+            <element signature="e#8661#8686#1#PHP" expanded="true" />
+            <element signature="e#8866#8905#1#PHP" expanded="true" />
+            <element signature="e#9050#9168#0#PHP" expanded="false" />
+            <element signature="e#9173#9507#0#PHP" expanded="false" />
+            <element signature="e#9314#9339#1#PHP" expanded="true" />
+            <element signature="e#9513#9635#0#PHP" expanded="false" />
+            <element signature="e#9640#9924#0#PHP" expanded="false" />
+            <element signature="e#9783#9808#1#PHP" expanded="true" />
+            <element signature="e#10209#10236#1#PHP" expanded="true" />
+            <element signature="e#10321#10360#1#PHP" expanded="true" />
+            <element signature="e#10964#10991#1#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

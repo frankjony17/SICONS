@@ -1,0 +1,78 @@
+<?php
+
+namespace NomencladorBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * RevisionContrato
+ *
+ * @ORM\Table(name="revision_contrato", indexes={@ORM\Index(name="IDX_2C35A5AC9531668A", columns={"aspectos_revizar_id"}), @ORM\Index(name="IDX_2C35A5ACF5F88DB9", columns={"persona_id"}), @ORM\Index(name="IDX_2C35A5ACF625D1BA", columns={"proyecto_id"})})
+ * @ORM\Entity
+ */
+class RevisionContrato
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="SEQUENCE")
+     * @ORM\SequenceGenerator(sequenceName="revision_contrato_id_seq", allocationSize=1, initialValue=1)
+     */
+    private $id;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="fecha", type="date", nullable=false)
+     */
+    private $fecha;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="observacion", type="text", nullable=true)
+     */
+    private $observacion;
+
+    /**
+     * @var boolean
+     *
+     * @ORM\Column(name="estado", type="boolean", nullable=true)
+     */
+    private $estado;
+
+    /**
+     * @var \AspectosRevizar
+     *
+     * @ORM\ManyToOne(targetEntity="AspectosRevizar")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="aspectos_revizar_id", referencedColumnName="id")
+     * })
+     */
+    private $aspectosRevizar;
+
+    /**
+     * @var \Persona
+     *
+     * @ORM\ManyToOne(targetEntity="Persona")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="persona_id", referencedColumnName="id")
+     * })
+     */
+    private $persona;
+
+    /**
+     * @var \Proyecto
+     *
+     * @ORM\ManyToOne(targetEntity="Proyecto")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="proyecto_id", referencedColumnName="id")
+     * })
+     */
+    private $proyecto;
+
+
+}
+

@@ -608,25 +608,31 @@ class appDevDebugProjectContainer extends Container
      */
     protected function getDoctrine_Orm_DefaultEntityManagerService()
     {
-        $a = new \Doctrine\Common\Persistence\Mapping\Driver\MappingDriverChain();
-        $a->addDriver(new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($this->get('annotation_reader'), array(0 => ($this->targetDirs[3].'\\src\\AdminBundle\\Entity'))), 'AdminBundle\\Entity');
+        $a = $this->get('annotation_reader');
 
-        $b = new \Doctrine\ORM\Configuration();
-        $b->setEntityNamespaces(array('AdminBundle' => 'AdminBundle\\Entity'));
-        $b->setMetadataCacheImpl($this->get('doctrine_cache.providers.doctrine.orm.default_metadata_cache'));
-        $b->setQueryCacheImpl($this->get('doctrine_cache.providers.doctrine.orm.default_query_cache'));
-        $b->setResultCacheImpl($this->get('doctrine_cache.providers.doctrine.orm.default_result_cache'));
-        $b->setMetadataDriverImpl($a);
-        $b->setProxyDir((__DIR__.'/doctrine/orm/Proxies'));
-        $b->setProxyNamespace('Proxies');
-        $b->setAutoGenerateProxyClasses(true);
-        $b->setClassMetadataFactoryName('Doctrine\\ORM\\Mapping\\ClassMetadataFactory');
-        $b->setDefaultRepositoryClassName('Doctrine\\ORM\\EntityRepository');
-        $b->setNamingStrategy(new \Doctrine\ORM\Mapping\UnderscoreNamingStrategy());
-        $b->setQuoteStrategy(new \Doctrine\ORM\Mapping\DefaultQuoteStrategy());
-        $b->setEntityListenerResolver($this->get('doctrine.orm.default_entity_listener_resolver'));
+        $b = new \Doctrine\ORM\Mapping\Driver\AnnotationDriver($a, array(0 => ($this->targetDirs[3].'\\src\\AdminBundle\\Entity'), 1 => ($this->targetDirs[3].'\\src\\NomencladorBundle\\Entity'), 2 => ($this->targetDirs[3].'\\src\\ProyectoBundle\\Entity')));
 
-        $this->services['doctrine.orm.default_entity_manager'] = $instance = \Doctrine\ORM\EntityManager::create($this->get('doctrine.dbal.default_connection'), $b);
+        $c = new \Doctrine\Common\Persistence\Mapping\Driver\MappingDriverChain();
+        $c->addDriver($b, 'AdminBundle\\Entity');
+        $c->addDriver($b, 'NomencladorBundle\\Entity');
+        $c->addDriver($b, 'ProyectoBundle\\Entity');
+
+        $d = new \Doctrine\ORM\Configuration();
+        $d->setEntityNamespaces(array('AdminBundle' => 'AdminBundle\\Entity', 'NomencladorBundle' => 'NomencladorBundle\\Entity', 'ProyectoBundle' => 'ProyectoBundle\\Entity'));
+        $d->setMetadataCacheImpl($this->get('doctrine_cache.providers.doctrine.orm.default_metadata_cache'));
+        $d->setQueryCacheImpl($this->get('doctrine_cache.providers.doctrine.orm.default_query_cache'));
+        $d->setResultCacheImpl($this->get('doctrine_cache.providers.doctrine.orm.default_result_cache'));
+        $d->setMetadataDriverImpl($c);
+        $d->setProxyDir((__DIR__.'/doctrine/orm/Proxies'));
+        $d->setProxyNamespace('Proxies');
+        $d->setAutoGenerateProxyClasses(true);
+        $d->setClassMetadataFactoryName('Doctrine\\ORM\\Mapping\\ClassMetadataFactory');
+        $d->setDefaultRepositoryClassName('Doctrine\\ORM\\EntityRepository');
+        $d->setNamingStrategy(new \Doctrine\ORM\Mapping\UnderscoreNamingStrategy());
+        $d->setQuoteStrategy(new \Doctrine\ORM\Mapping\DefaultQuoteStrategy());
+        $d->setEntityListenerResolver($this->get('doctrine.orm.default_entity_listener_resolver'));
+
+        $this->services['doctrine.orm.default_entity_manager'] = $instance = \Doctrine\ORM\EntityManager::create($this->get('doctrine.dbal.default_connection'), $d);
 
         $this->get('doctrine.orm.default_manager_configurator')->configure($instance);
 
@@ -1777,27 +1783,36 @@ class appDevDebugProjectContainer extends Container
 
         $h = new \Symfony\Component\HttpFoundation\RequestMatcher('^/proyecto');
 
-        $i = new \Symfony\Component\HttpFoundation\RequestMatcher('^/nomenclador');
+        $i = new \Symfony\Component\HttpFoundation\RequestMatcher('^/equipo/trabajo');
 
-        $j = new \Symfony\Component\Security\Http\AccessMap();
-        $j->add($f, array(0 => 'ROLE_ADMIN'), NULL);
-        $j->add($g, array(0 => 'ROLE_USER'), NULL);
-        $j->add($h, array(0 => 'ROLE_USER'), NULL);
-        $j->add($i, array(0 => 'ROLE_USER'), NULL);
+        $j = new \Symfony\Component\HttpFoundation\RequestMatcher('^/especialista/calidad');
 
-        $k = new \Symfony\Component\Security\Http\HttpUtils($c, $c);
+        $k = new \Symfony\Component\HttpFoundation\RequestMatcher('^/revision/contrato');
 
-        $l = new \Symfony\Component\Security\Http\Firewall\LogoutListener($a, $k, new \Symfony\Component\Security\Http\Logout\DefaultLogoutSuccessHandler($k, '_login'), array('csrf_parameter' => '_csrf_token', 'csrf_token_id' => 'logout', 'logout_path' => '_logout'));
-        $l->addHandler(new \Symfony\Component\Security\Http\Logout\SessionLogoutHandler());
+        $l = new \Symfony\Component\HttpFoundation\RequestMatcher('^/nomenclador');
 
-        $m = new \Symfony\Component\Security\Http\Authentication\DefaultAuthenticationSuccessHandler($k, array());
-        $m->setOptions(array('login_path' => '_login', 'always_use_default_target_path' => false, 'default_target_path' => '/', 'target_path_parameter' => '_target_path', 'use_referer' => false));
-        $m->setProviderKey('secured_area');
+        $m = new \Symfony\Component\Security\Http\AccessMap();
+        $m->add($f, array(0 => 'ROLE_ADMIN'), NULL);
+        $m->add($g, array(0 => 'ROLE_ADMIN'), NULL);
+        $m->add($h, array(0 => 'ROLE_JEFE_DISENNO', 1 => 'ROLE_EQUIPO_TRABAJO', 2 => 'ROLE_ESPECIALISTA_CALIDAD'), NULL);
+        $m->add($i, array(0 => 'ROLE_EQUIPO_TRABAJO'), NULL);
+        $m->add($j, array(0 => 'ROLE_ESPECIALISTA_CALIDAD'), NULL);
+        $m->add($k, array(0 => 'ROLE_ESPECIALISTA_CALIDAD'), NULL);
+        $m->add($l, array(0 => 'ROLE_ADMIN', 1 => 'ROLE_JEFE_DISENNO'), NULL);
 
-        $n = new \Symfony\Component\Security\Http\Authentication\DefaultAuthenticationFailureHandler($d, $k, array(), NULL);
-        $n->setOptions(array('login_path' => '_login', 'failure_path' => NULL, 'failure_forward' => false, 'failure_path_parameter' => '_failure_path'));
+        $n = new \Symfony\Component\Security\Http\HttpUtils($c, $c);
 
-        return $this->services['security.firewall.map.context.secured_area'] = new \Symfony\Bundle\SecurityBundle\Security\FirewallContext(array(0 => new \Symfony\Component\Security\Http\Firewall\ChannelListener($j, new \Symfony\Component\Security\Http\EntryPoint\RetryAuthenticationEntryPoint(80, 443), NULL), 1 => new \Symfony\Component\Security\Http\Firewall\ContextListener($a, array(0 => $this->get('security.user.provider.concrete.our_db_provider')), 'secured_area', NULL, $b), 2 => $l, 3 => new \Symfony\Component\Security\Http\Firewall\UsernamePasswordFormAuthenticationListener($a, $e, new \Symfony\Component\Security\Http\Session\SessionAuthenticationStrategy('migrate'), $k, 'secured_area', $m, $n, array('check_path' => '_security_check', 'use_forward' => false, 'require_previous_session' => true, 'username_parameter' => '_username', 'password_parameter' => '_password', 'csrf_parameter' => '_csrf_token', 'csrf_token_id' => 'authenticate', 'post_only' => true), NULL, $b, NULL), 4 => new \Symfony\Component\Security\Http\Firewall\AccessListener($a, $this->get('security.access.decision_manager'), $j, $e)), new \Symfony\Component\Security\Http\Firewall\ExceptionListener($a, $this->get('security.authentication.trust_resolver'), $k, 'secured_area', new \Symfony\Component\Security\Http\EntryPoint\FormAuthenticationEntryPoint($d, $k, '_login', false), NULL, NULL, NULL, false));
+        $o = new \Symfony\Component\Security\Http\Firewall\LogoutListener($a, $n, new \Symfony\Component\Security\Http\Logout\DefaultLogoutSuccessHandler($n, '_login'), array('csrf_parameter' => '_csrf_token', 'csrf_token_id' => 'logout', 'logout_path' => '_logout'));
+        $o->addHandler(new \Symfony\Component\Security\Http\Logout\SessionLogoutHandler());
+
+        $p = new \Symfony\Component\Security\Http\Authentication\DefaultAuthenticationSuccessHandler($n, array());
+        $p->setOptions(array('login_path' => '_login', 'always_use_default_target_path' => false, 'default_target_path' => '/', 'target_path_parameter' => '_target_path', 'use_referer' => false));
+        $p->setProviderKey('secured_area');
+
+        $q = new \Symfony\Component\Security\Http\Authentication\DefaultAuthenticationFailureHandler($d, $n, array(), NULL);
+        $q->setOptions(array('login_path' => '_login', 'failure_path' => NULL, 'failure_forward' => false, 'failure_path_parameter' => '_failure_path'));
+
+        return $this->services['security.firewall.map.context.secured_area'] = new \Symfony\Bundle\SecurityBundle\Security\FirewallContext(array(0 => new \Symfony\Component\Security\Http\Firewall\ChannelListener($m, new \Symfony\Component\Security\Http\EntryPoint\RetryAuthenticationEntryPoint(80, 443), NULL), 1 => new \Symfony\Component\Security\Http\Firewall\ContextListener($a, array(0 => $this->get('security.user.provider.concrete.our_db_provider')), 'secured_area', NULL, $b), 2 => $o, 3 => new \Symfony\Component\Security\Http\Firewall\UsernamePasswordFormAuthenticationListener($a, $e, new \Symfony\Component\Security\Http\Session\SessionAuthenticationStrategy('migrate'), $n, 'secured_area', $p, $q, array('check_path' => '_security_check', 'use_forward' => false, 'require_previous_session' => true, 'username_parameter' => '_username', 'password_parameter' => '_password', 'csrf_parameter' => '_csrf_token', 'csrf_token_id' => 'authenticate', 'post_only' => true), NULL, $b, NULL), 4 => new \Symfony\Component\Security\Http\Firewall\AccessListener($a, $this->get('security.access.decision_manager'), $m, $e)), new \Symfony\Component\Security\Http\Firewall\ExceptionListener($a, $this->get('security.authentication.trust_resolver'), $n, 'secured_area', new \Symfony\Component\Security\Http\EntryPoint\FormAuthenticationEntryPoint($d, $n, '_login', false), NULL, NULL, NULL, false));
     }
 
     /**

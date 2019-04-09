@@ -1,0 +1,75 @@
+<?php
+
+namespace NomencladorBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * RevisionEscrita
+ *
+ * @ORM\Table(name="revision_escrita", indexes={@ORM\Index(name="IDX_6375752EE87EA1DA", columns={"equipo_trabajo_id"}), @ORM\Index(name="IDX_6375752E8D02887B", columns={"formato_id"})})
+ * @ORM\Entity
+ */
+class RevisionEscrita
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="SEQUENCE")
+     * @ORM\SequenceGenerator(sequenceName="revision_escrita_id_seq", allocationSize=1, initialValue=1)
+     */
+    private $id;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="fecha", type="date", nullable=false)
+     */
+    private $fecha;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="documento", type="string", length=45, nullable=true)
+     */
+    private $documento;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="numero_hojas", type="integer", nullable=true)
+     */
+    private $numeroHojas;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="numero_errores", type="integer", nullable=true)
+     */
+    private $numeroErrores;
+
+    /**
+     * @var \EquipoTrabajo
+     *
+     * @ORM\ManyToOne(targetEntity="EquipoTrabajo")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="equipo_trabajo_id", referencedColumnName="id")
+     * })
+     */
+    private $equipoTrabajo;
+
+    /**
+     * @var \Formato
+     *
+     * @ORM\ManyToOne(targetEntity="Formato")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="formato_id", referencedColumnName="id")
+     * })
+     */
+    private $formato;
+
+
+}
+

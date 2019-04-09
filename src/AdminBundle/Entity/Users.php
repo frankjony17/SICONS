@@ -3,7 +3,6 @@
 namespace AdminBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use Symfony\Component\Security\Core\Encoder\Pbkdf2PasswordEncoder;
 use Symfony\Component\Security\Core\Role\Role;
 use Symfony\Component\Security\Core\User\AdvancedUserInterface;
 
@@ -11,7 +10,7 @@ use Symfony\Component\Security\Core\User\AdvancedUserInterface;
  * Users
  *
  * @ORM\Table(name="users", uniqueConstraints={@ORM\UniqueConstraint(name="users_username_key", columns={"username"}), @ORM\UniqueConstraint(name="users_email_key", columns={"email"})})
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="\AdminBundle\Entity\UsersRepository")
  */
 class Users implements AdvancedUserInterface, \Serializable
 {
@@ -60,8 +59,6 @@ class Users implements AdvancedUserInterface, \Serializable
     public function __construct()
     {
         $this->isActive = true;
-        // may not be needed, see section on salt below
-        // $this->salt = md5(uniqid(null, true));
     }
 
     public function getUsername()
@@ -208,8 +205,8 @@ class Users implements AdvancedUserInterface, \Serializable
      */
     public function setPassword($password)
     {
-        $pbkdf2 = new Pbkdf2PasswordEncoder();
-        $this->password = $pbkdf2->encodePassword($password, $this->getSalt());
+        $this->password = $password;
+
         return $this;
     }
 
@@ -270,14 +267,21 @@ class Users implements AdvancedUserInterface, \Serializable
     {
         $string_roles = '[';
         foreach ($this->getRoles() as $value) {
-            $string_roles .= $value;
+            $string_roles .= $value .', ';
         }
+
+        if ($string_roles === '[') {
+            $string_roles = '';
+        } else {
+            $string_roles = rtrim($string_roles, ', ') . ']';
+        }
+
         return array (
             'id' => $this->id,
             'username' => $this->getUsername(),
             'email' => $this->getEmail(),
             'is_active' => $this->getIsActive(),
-            'roles' => $string_roles . ']'
+            'roles' => $string_roles
         );
     }
 

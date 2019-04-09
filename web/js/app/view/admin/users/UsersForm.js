@@ -14,8 +14,7 @@ Ext.define('SCS.view.admin.users.UsersForm', {
 
         this.items = [{
             xtype: 'form',
-            url: '../admin/users/add-edit',
-            url: '../admin/users/add-edit',
+            url: '../admin/users/add',
             padding: '10 10 10 10',
             frame: false,
             fieldDefaults: {
@@ -26,26 +25,36 @@ Ext.define('SCS.view.admin.users.UsersForm', {
             items:[{
                 xtype: 'container',
                 border: false,
-                layout: 'hbox',
+                layout: 'anchor',
                 items: [{
                     xtype: 'textfield',
                     fieldLabel: 'Username',
-                    emptyText: 'Username',
+                    maskRe: /[aA-zZ\.\áéíóúñÁÉÍÓÚÑ]/,
+                    regex: /[aA-zZ]/,
                     name: 'username',
-                    /*maskRe: MASKRe,
-                    regex: REGEx,*/
                     maxLength: 23,
+                    allowBlank: false,
+                    flex: 1,
+                    afterLabelTextTpl: ['<span style="color:red; font-weight:bold" data-qtip="Required">*</span>'],
+                }]
+            },{
+                xtype: 'container',
+                border: false,
+                layout: 'hbox',
+                items: [{
+                    xtype: 'textfield',
+                    fieldLabel: 'Contraseña',
+                    name: 'password',
+                    inputType: 'password',
+                    maxLength: 62,
                     allowBlank: false,
                     flex: 1,
                     afterLabelTextTpl: ['<span style="color:red; font-weight:bold" data-qtip="Required">*</span>'],
                     margin: '0 5 0 0'
                 },{
                     xtype: 'textfield',
-                    fieldLabel: 'Password',
-                    emptyText: 'Password',
-                    name: 'password',
-                    /*maskRe: MASKRe,
-                    regex: REGEx,*/
+                    fieldLabel: 'Repetir Contraseña',
+                    inputType: 'password',
                     maxLength: 62,
                     allowBlank: false,
                     flex: 1,
@@ -60,12 +69,11 @@ Ext.define('SCS.view.admin.users.UsersForm', {
                     fieldLabel: 'Email',
                     emptyText: 'Email',
                     name: 'email',
-                    /*maskRe: MASKRe,
-                    regex: REGEx,*/
+                    vtype: 'email',
                     maxLength: 62,
                     allowBlank: true,
                     flex: 1,
-                    afterLabelTextTpl: false
+                    margin: '0 5 0 0'
                 },{
                     xtype: 'combobox',
                     fieldLabel: 'Is Active',
@@ -73,16 +81,13 @@ Ext.define('SCS.view.admin.users.UsersForm', {
                     name: 'is_active',
                     store: Ext.create('Ext.data.ArrayStore', {
                         fields: [ 'estado', 'value' ],
-                        data: [[ true, 'Final' ], [ false, 'Pendiente' ], [ true, 'Si' ], [ false, 'No' ], [ true, 'M' ], [ false, 'F' ], [ true, 'OK' ]]
+                        data: [[ true, 'Si' ], [ false, 'No' ]]
                     }),
                     queryMode: 'local',
                     displayField: 'value',
                     valueField: 'estado',
                     editable: false,
-                    flex: 1,
-                    allowBlank: true,
-                    afterLabelTextTpl: false
-
+                    flex: 1
                 },{
                     xtype: 'hiddenfield',
                     name: 'id'

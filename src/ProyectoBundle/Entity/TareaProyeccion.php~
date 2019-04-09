@@ -1,0 +1,59 @@
+<?php
+
+namespace ProyectoBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * TareaProyeccion
+ *
+ * @ORM\Table(name="tarea_proyeccion", indexes={@ORM\Index(name="IDX_A43374C5EF7A59DF", columns={"elemento_control_id"}), @ORM\Index(name="IDX_A43374C5F625D1BA", columns={"proyecto_id"})})
+ * @ORM\Entity
+ */
+class TareaProyeccion
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="SEQUENCE")
+     * @ORM\SequenceGenerator(sequenceName="tarea_proyeccion_id_seq", allocationSize=1, initialValue=1)
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="observacion", type="text", nullable=true)
+     */
+    private $observacion;
+
+    /**
+     * @var boolean
+     *
+     * @ORM\Column(name="estado", type="boolean", nullable=true)
+     */
+    private $estado;
+
+    /**
+     * @var \NomencladorBundle\Entity\ElementoControl
+     *
+     * @ORM\ManyToOne(targetEntity="NomencladorBundle\Entity\ElementoControl")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="elemento_control_id", referencedColumnName="id")
+     * })
+     */
+    private $elementoControl;
+
+    /**
+     * @var \Proyecto
+     *
+     * @ORM\ManyToOne(targetEntity="Proyecto")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="proyecto_id", referencedColumnName="id")
+     * })
+     */
+    private $proyecto;
+
+}

@@ -33,6 +33,11 @@ class CrudExtJSCommand extends GeneratorCommand
         $tableName = $input->getOption('table-name');
         $appName = $input->getOption('name-application');
         $bundle = $input->getOption('bundle');
+
+        if (is_numeric($tableName)) {
+            $output->write('The generator fail because the table have more 20 columns.');
+            $output->write('This generator only can .');
+        }
         /* Get service Generator */
         $generator = $this->getContainer()->get('crud_ext_js.generator');
         /* Generate CRUD */

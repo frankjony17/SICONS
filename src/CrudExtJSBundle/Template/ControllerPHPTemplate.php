@@ -19,6 +19,7 @@ class ControllerPHPTemplate
 
     /**
      * ControllerPHPTemplate constructor.
+     *
      * @param $information
      * @param $util
      */
@@ -29,8 +30,9 @@ class ControllerPHPTemplate
     }
 
     /**
-     * @param $bundle
+     * Set Bundle name.
      *
+     * @param $bundle
      * @return $this
      */
     public function setBundle($bundle)
@@ -41,8 +43,9 @@ class ControllerPHPTemplate
     }
 
     /**
-     * @param $entity
+     * Set Entity name.
      *
+     * @param $entity
      * @return $this
      */
     public function setEntity($entity)
@@ -53,8 +56,9 @@ class ControllerPHPTemplate
     }
 
     /**
-     * @param $route
+     * Set Route.
      *
+     * @param $route
      * @return $this
      */
     public function setRoute($route)
@@ -68,7 +72,6 @@ class ControllerPHPTemplate
      * Get Template Controller PHP.
      *
      * @param $templateContent
-     *
      * @return string
      */
     public function getControllerPHP($templateContent)
@@ -81,6 +84,7 @@ class ControllerPHPTemplate
         /* Replace values */
         $templateContent = str_replace('LIST_ARRAY', $values['list'], $templateContent);
         $templateContent = str_replace('ADD_SETS', $values['add'], $templateContent);
+        $templateContent = str_replace('OTHERS', '', $templateContent);
         /* Return Template */
         return $templateContent;
     }
@@ -96,9 +100,13 @@ class ControllerPHPTemplate
         $addValues = "";
         /* Each de column for database table  */
         foreach ($this->information as $value) {
-            /* Keys to array  for list action */
+            if ($this->util->isForeignKey($value['column_name'])) {
+            $keyValues .= '
+                \''. $value['column_name'] .'\' => $value->get'. $this->util->getEntityName($value['column_name']) .'()->get'. $this->getColumnName(substr($value['column_name'], 0, -3)) .'(), ';
+            } else {
             $keyValues .= '
                 \''. $value['column_name'] .'\' => $value->get'. $this->util->getName($value['column_name'], "") .'(), ';
+            }
             /* Add an Edit values to replace in template */
             if ($value['column_name'] !== 'id') {
              /* Is foreign key */
@@ -111,7 +119,9 @@ class ControllerPHPTemplate
                     $bundle = $bundle ? $bundle : $this->bundle;
         /* Add Sets method */
             $addValues .= '
-        $entity->set'. $entity .'($em->find(\''. $bundle .':'. $entity .'\', $this->get(\''. $value['column_name'] .'\')));';
+        if (is_numeric($rq->get(\''. $value['column_name'] .'\'))) {
+            $entity->set'. $entity .'($em->getRepository(\''. $bundle .':'. $entity .'\')->find($rq->get(\''. $value['column_name'] .'\')));
+        }';
                 } else {
             $addValues .= '
         $entity->set'. $this->util->getName($value['column_name'], "") .'($rq->get(\''. $value['column_name'] .'\'));';
@@ -122,5 +132,18 @@ class ControllerPHPTemplate
             'list' => rtrim(trim($keyValues), ','),
             'add' => trim($addValues)
         );
+    }
+
+    /**
+     * Net second column name
+     *
+     * @param $tableName
+     * @return string
+     */
+    private function getColumnName($tableName)
+    {
+        $information = $this->util->getTableInformation($tableName);
+
+        return ucwords($information[1]['column_name']);
     }
 }

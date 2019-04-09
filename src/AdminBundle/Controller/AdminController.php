@@ -4,11 +4,9 @@ namespace AdminBundle\Controller;
 
 use AdminBundle\Entity\Roles;
 use AdminBundle\Entity\Users;
-
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
-use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpFoundation\Request;
 
@@ -57,73 +55,129 @@ class AdminController extends Controller
     {
         $em = $this->getDoctrine()->getManager();
         $users = $this->get('scs.util')->toArray($em->getRepository('AdminBundle:Users')->findAll());
-
         return new Response('({"total":"'.count($users).'","data":'.json_encode($users).'})');
     }
 
-//    /**
-//     * @Route("users/add")
-//     */
-//    public function loadNewUsersAction(Request $rq)
-//    {
-//        $em = $this->getDoctrine()->getManager();
-//
-//        $users = new Users();
-//        $users->setUsername("admin");
-//        $users->setPassword(12345678);
-//        $users->setEmail("admin@email.cu");
-//        $users->setIsActive(\TRUE);
-//
-//        $em->persist($users);
-//
-//        return new Response($em->flush());
-//    }
+    /**
+     * @Route("roles/list_roles_users")
+     * @param Request $rq
+     * @return Response
+     */
+    public function listRoleUsersAction(Request $rq)
+    {
+        $em = $this->getDoctrine()->getManager();
+
+        $roles = $em->getRepository('AdminBundle:Roles')->findAll();
+        $users = $em->getRepository('AdminBundle:Users')->find($rq->get("Id"));
+
+        $users_roles = array();
+
+        foreach ($roles as $rol) {
+            $estado = \FALSE;
+
+            if(in_array($rol->getRole(), $users->getRoles())) {
+                $estado = \TRUE;
+            }
+            $users_roles[] = array(
+                'id'     => $rol->getId(),
+                'name'   => strtoupper($rol->getName()),
+                'role'   => $rol->getRole(),
+                'estado' => $estado
+            );
+        }
+        return new Response('({"total":"'.count($users_roles).'","data":'.json_encode($users_roles).'})');
+    }
 
     /**
-     * @Route("qqq")
+     * @Route("users/add")
+     * @param Request $rq
+     * @return Response
      */
-    public function d()
+    public function loadNewUsersAction(Request $rq)
     {
-//        $finder = new Finder();
-//
-//        $finder->name('*UsersStore*');
-//        $finder->files()->in(realpath($this->get('crud_ext_js.util')->getPath() .'\\web\\js\\app\\store\\'));
-//
-//        foreach ($finder as $file) {
-//            return new Response($file->getRelativePathname());
-//        }
+        $em = $this->getDoctrine()->getManager();
 
-//        $textField = $this->get('crud_ext_js.util')->getTableInformation('users');
+        $users = new Users();
 
-//        $em = $this->getDoctrine()->getManager();
+        $encoder = $this->container->get('security.password_encoder');
+        $encoded = $encoder->encodePassword($users, $rq->get('password'));
 
-//        $data = array();
-//
-//        foreach($this->getDoctrine()->getManager()->getRepository('AdminBundle:Users')->findAll() as $user ) {
-//            $data[] = array(
-//                'id' => $user->getId(),
-//                'username' => $user->getUsername(),
-//                'email' => $user->getEmail(),
-//                'is_active' => $user->getIsActive()
-//            );
-//        }
-//        if (substr('personalidad_id', -3) === '_id') {
-//            return new JsonResponse(substr('personalidad_id', -3));
-//        } else {
-//            return new JsonResponse(substr('personalidad_id', -3));
-//        }
-        $entity = $this->get('crud_ext_js.util')->finder('Rolefs', '/src/');
+        $users->setUsername($rq->get('username'));
+        $users->setPassword($encoded);
+        $users->setEmail($rq->get('email'));
+        $users->setIsActive($rq->get('is_active'));
 
-        $explode = explode('\\', $entity);
+        $em->persist($users);
 
-        if (count($explode) > 1) {
-            $bundle = $explode[0];
+        return new Response($em->flush());
+    }
+
+    /**
+     * @Route("users/active_users")
+     * @param Request $rq
+     * @return Response
+     */
+    public function activeUsersAction(Request $rq)
+    {
+        $em = $this->getDoctrine()->getManager();
+        $us = $em->getRepository('AdminBundle:Users')->find($rq->get("Id"));
+
+        if ($us->getIsActive()) {
+            $us->setIsActive(\FALSE);
         } else {
-            $bundle = false;
+            $us->setIsActive(\TRUE);
         }
+        $em->persist($us);
 
-        $bundle = $bundle ? $bundle : 'FALSE';
+        return new Response($em->flush());
+    }
 
-        return new Response($bundle);
+    /**
+     * @Route("users/edit_users")
+     * @param Request $rq
+     * @return Response
+     */
+    public function editUsersAction(Request $rq)
+    {
+        $em = $this->getDoctrine()->getManager();
+        $us = $em->getRepository('AdminBundle:Users')->find($rq->get("Id"));
+
+        $us->setUsername($rq->get("Alias"));
+        $us->setEmail($rq->get("Correo"));
+
+        $val = $em->getRepository('AdminBundle:Users')->countUsers($rq->get("Id"), $rq->get("Alias"), $rq->get("Correo"));
+
+        if (count($val) > 0) {
+            return new Response('Unico');
+        }
+        return new Response($em->flush($us));
+    }
+
+    /**
+     * @Route("users/add_roles_users")
+     * @param Request $rq
+     * @return Response
+     */
+    public function addRolesUsersAction(Request $rq)
+    {
+        $em = $this->getDoctrine()->getManager();
+        $us = $em->getRepository('AdminBundle:Users')->find($rq->get("Id"));
+
+        foreach (json_decode($rq->get('Roles')) as $val)
+        {
+            $rol = $em->getRepository('AdminBundle:Roles')->find($val->id);
+
+            if ($val->estado == true) {
+                if (!in_array($rol->getRole(), $us->getRoles())) {
+                    $us->addRole($rol);
+                }
+            }
+            else {
+                if (in_array($rol->getRole(), $us->getRoles())) {
+                    $us->removeRole($rol);
+                }
+            }
+        }
+        return new Response($em->flush());
     }
 }

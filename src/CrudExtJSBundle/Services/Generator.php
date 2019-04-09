@@ -4,7 +4,6 @@ namespace CrudExtJSBundle\Services;
 
 use CrudExtJSBundle\Template\ControllerJSTemplate;
 use CrudExtJSBundle\Template\ControllerPHPTemplate;
-use CrudExtJSBundle\Template\ControllerTemplate;
 use CrudExtJSBundle\Template\FormTemplate;
 use CrudExtJSBundle\Template\GridTemplate;
 use CrudExtJSBundle\Template\StoreTemplate;
@@ -24,7 +23,6 @@ class Generator
     private $tableName;
     private $util;
     private $tableInformation;
-    private $gridNamespace;
     private $formNamespace;
 
     /**
@@ -63,6 +61,9 @@ class Generator
         $this->generateControllerPHP();
     }
 
+    /**
+     * Generate ExtJs Store.
+     */
     private function generateStore()
     {
         $store = new StoreTemplate();
@@ -76,9 +77,13 @@ class Generator
         /* Writes content in file */
         $this->util->dumpFile(
             '/web/js/app/store/'. $this->util->getName($this->tableName, "") .'Store.js',
-            $store->getStoreJs($this->util->getTemplateContent('StoreTemplate.js')));
+            $store->getStoreJs($this->util->getTemplateContent('StoreTemplate.js'))
+        );
     }
 
+    /**
+     * Generate ExtJS Grid.
+     */
     private function generateGrid()
     {
         $grid = new GridTemplate();
@@ -89,9 +94,13 @@ class Generator
         /* Writes content in file */
         $this->util->dumpFile(
             '/web/js/app/view/'. $this->util->getBundleName($this->bundle) .'/'. $this->tableName .'/'. $this->util->getName($this->tableName, "") . 'Grid.js',
-            $grid->getGridJs($this->util->getTemplateContent('GridTemplate.js')));
+            $grid->getGridJs($this->util->getTemplateContent('GridTemplate.js'))
+        );
     }
 
+    /**
+     * Generate Extjs Form.
+     */
     private function generateForm()
     {
         $form = new FormTemplate($this->appName, $this->tableName, $this->util->getBundleName($this->bundle), $this->util);
@@ -101,11 +110,15 @@ class Generator
         /* Writes content in file */
         $this->util->dumpFile(
             '/web/js/app/view/'. $this->util->getBundleName($this->bundle) .'/'. $this->tableName .'/'. $this->util->getName($this->tableName, "") . 'Form.js',
-            $form->getFormJs($this->tableInformation));
+            $form->getFormJs($this->tableInformation)
+        );
         /* Save form namespace */
         $this->formNamespace = $form->getNamespace();
     }
 
+    /**
+     * Generate ExtJS Controller.
+     */
     private function generateControllerJS()
     {
         $controller = new ControllerJSTemplate();
@@ -122,17 +135,23 @@ class Generator
         );
     }
 
-
+    /**
+     * Generate Symfony3 Controller
+     */
     private function generateControllerPHP()
     {
-        $controller = new ControllerPHPTemplate($this->tableInformation, $this->util);
-        $controller->setBundle($this->bundle);
-        $controller->setEntity($this->util->getName($this->tableName, ""));
-        $controller->setRoute($this->util->getBundleName($this->bundle) .'/'. $this->tableName);
-        /* Writes content in file */
-        $this->util->dumpFile(
-            '/src/'. $this->bundle .'/Controller/'. $this->util->getName($this->tableName, "") .'Controller.php',
-            $controller->getControllerPHP($this->util->getTemplateContent('ControllerTemplate'))
-        );
+        $controller = $this->util->finder($this->util->getName($this->tableName, "") .'Controller', '\\src\\');
+        /* Exist controller? */
+        if (!$controller) {
+            $controller = new ControllerPHPTemplate($this->tableInformation, $this->util);
+            $controller->setBundle($this->bundle);
+            $controller->setEntity($this->util->getName($this->tableName, ""));
+            $controller->setRoute($this->util->getBundleName($this->bundle) .'/'. $this->tableName);
+            /* Writes content in file */
+            $this->util->dumpFile(
+                '/src/'. $this->bundle .'/Controller/'. $this->util->getName($this->tableName, "") .'Controller.php',
+                $controller->getControllerPHP($this->util->getTemplateContent('ControllerTemplate'))
+            );
+        }
     }
 }

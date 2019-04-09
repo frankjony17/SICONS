@@ -1,0 +1,76 @@
+<?php
+
+namespace ProyectoBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * RevisionGrafica
+ *
+ * @ORM\Table(name="revision_grafica", indexes={@ORM\Index(name="IDX_9F8EA09CE87EA1DA", columns={"equipo_trabajo_id"}), @ORM\Index(name="IDX_9F8EA09CED8CDAB9", columns={"escala_id"}), @ORM\Index(name="IDX_9F8EA09C8D02887B", columns={"formato_id"})})
+ * @ORM\Entity
+ */
+class RevisionGrafica
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="SEQUENCE")
+     * @ORM\SequenceGenerator(sequenceName="revision_grafica_id_seq", allocationSize=1, initialValue=1)
+     */
+    private $id;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="fecha", type="date", nullable=false)
+     */
+    private $fecha;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="numero_plano", type="string", length=25, nullable=true)
+     */
+    private $numeroPlano;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="numero_errores", type="integer", nullable=true)
+     */
+    private $numeroErrores;
+
+    /**
+     * @var \EquipoTrabajo
+     *
+     * @ORM\ManyToOne(targetEntity="EquipoTrabajo")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="equipo_trabajo_id", referencedColumnName="id")
+     * })
+     */
+    private $equipoTrabajo;
+
+    /**
+     * @var \NomencladorBundle\Entity\Escalas
+     *
+     * @ORM\ManyToOne(targetEntity="NomencladorBundle\Entity\Escalas")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="escala_id", referencedColumnName="id")
+     * })
+     */
+    private $escala;
+
+    /**
+     * @var \NomencladorBundle\Entity\Formato
+     *
+     * @ORM\ManyToOne(targetEntity="NomencladorBundle\Entity\Formato")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="formato_id", referencedColumnName="id")
+     * })
+     */
+    private $formato;
+
+}

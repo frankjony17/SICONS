@@ -1575,7 +1575,7 @@
                     </service>
                   </argument>
                   <argument type="collection">
-                    <argument>ROLE_USER</argument>
+                    <argument>ROLE_ADMIN</argument>
                   </argument>
                   <argument>null</argument>
                 </call>
@@ -1586,7 +1586,42 @@
                     </service>
                   </argument>
                   <argument type="collection">
-                    <argument>ROLE_USER</argument>
+                    <argument>ROLE_JEFE_DISENNO</argument>
+                    <argument>ROLE_EQUIPO_TRABAJO</argument>
+                    <argument>ROLE_ESPECIALISTA_CALIDAD</argument>
+                  </argument>
+                  <argument>null</argument>
+                </call>
+                <call method="add">
+                  <argument type="service">
+                    <service class="Symfony\Component\HttpFoundation\RequestMatcher" public="false">
+                      <argument>^/equipo/trabajo</argument>
+                    </service>
+                  </argument>
+                  <argument type="collection">
+                    <argument>ROLE_EQUIPO_TRABAJO</argument>
+                  </argument>
+                  <argument>null</argument>
+                </call>
+                <call method="add">
+                  <argument type="service">
+                    <service class="Symfony\Component\HttpFoundation\RequestMatcher" public="false">
+                      <argument>^/especialista/calidad</argument>
+                    </service>
+                  </argument>
+                  <argument type="collection">
+                    <argument>ROLE_ESPECIALISTA_CALIDAD</argument>
+                  </argument>
+                  <argument>null</argument>
+                </call>
+                <call method="add">
+                  <argument type="service">
+                    <service class="Symfony\Component\HttpFoundation\RequestMatcher" public="false">
+                      <argument>^/revision/contrato</argument>
+                    </service>
+                  </argument>
+                  <argument type="collection">
+                    <argument>ROLE_ESPECIALISTA_CALIDAD</argument>
                   </argument>
                   <argument>null</argument>
                 </call>
@@ -1597,7 +1632,8 @@
                     </service>
                   </argument>
                   <argument type="collection">
-                    <argument>ROLE_USER</argument>
+                    <argument>ROLE_ADMIN</argument>
+                    <argument>ROLE_JEFE_DISENNO</argument>
                   </argument>
                   <argument>null</argument>
                 </call>
@@ -1756,7 +1792,7 @@
                     </service>
                   </argument>
                   <argument type="collection">
-                    <argument>ROLE_USER</argument>
+                    <argument>ROLE_ADMIN</argument>
                   </argument>
                   <argument>null</argument>
                 </call>
@@ -1767,7 +1803,42 @@
                     </service>
                   </argument>
                   <argument type="collection">
-                    <argument>ROLE_USER</argument>
+                    <argument>ROLE_JEFE_DISENNO</argument>
+                    <argument>ROLE_EQUIPO_TRABAJO</argument>
+                    <argument>ROLE_ESPECIALISTA_CALIDAD</argument>
+                  </argument>
+                  <argument>null</argument>
+                </call>
+                <call method="add">
+                  <argument type="service">
+                    <service class="Symfony\Component\HttpFoundation\RequestMatcher" public="false">
+                      <argument>^/equipo/trabajo</argument>
+                    </service>
+                  </argument>
+                  <argument type="collection">
+                    <argument>ROLE_EQUIPO_TRABAJO</argument>
+                  </argument>
+                  <argument>null</argument>
+                </call>
+                <call method="add">
+                  <argument type="service">
+                    <service class="Symfony\Component\HttpFoundation\RequestMatcher" public="false">
+                      <argument>^/especialista/calidad</argument>
+                    </service>
+                  </argument>
+                  <argument type="collection">
+                    <argument>ROLE_ESPECIALISTA_CALIDAD</argument>
+                  </argument>
+                  <argument>null</argument>
+                </call>
+                <call method="add">
+                  <argument type="service">
+                    <service class="Symfony\Component\HttpFoundation\RequestMatcher" public="false">
+                      <argument>^/revision/contrato</argument>
+                    </service>
+                  </argument>
+                  <argument type="collection">
+                    <argument>ROLE_ESPECIALISTA_CALIDAD</argument>
                   </argument>
                   <argument>null</argument>
                 </call>
@@ -1778,7 +1849,8 @@
                     </service>
                   </argument>
                   <argument type="collection">
-                    <argument>ROLE_USER</argument>
+                    <argument>ROLE_ADMIN</argument>
+                    <argument>ROLE_JEFE_DISENNO</argument>
                   </argument>
                   <argument>null</argument>
                 </call>
@@ -2159,6 +2231,8 @@
           <call method="setEntityNamespaces">
             <argument type="collection">
               <argument key="AdminBundle">AdminBundle\Entity</argument>
+              <argument key="NomencladorBundle">NomencladorBundle\Entity</argument>
+              <argument key="ProyectoBundle">ProyectoBundle\Entity</argument>
             </argument>
           </call>
           <call method="setMetadataCacheImpl">
@@ -2179,10 +2253,38 @@
                       <argument type="service" id="annotation_reader"/>
                       <argument type="collection">
                         <argument>D:\Proyects\Symfony_2\SICONS\src\AdminBundle\Entity</argument>
+                        <argument>D:\Proyects\Symfony_2\SICONS\src\NomencladorBundle\Entity</argument>
+                        <argument>D:\Proyects\Symfony_2\SICONS\src\ProyectoBundle\Entity</argument>
                       </argument>
                     </service>
                   </argument>
                   <argument>AdminBundle\Entity</argument>
+                </call>
+                <call method="addDriver">
+                  <argument type="service">
+                    <service class="Doctrine\ORM\Mapping\Driver\AnnotationDriver" public="false">
+                      <argument type="service" id="annotation_reader"/>
+                      <argument type="collection">
+                        <argument>D:\Proyects\Symfony_2\SICONS\src\AdminBundle\Entity</argument>
+                        <argument>D:\Proyects\Symfony_2\SICONS\src\NomencladorBundle\Entity</argument>
+                        <argument>D:\Proyects\Symfony_2\SICONS\src\ProyectoBundle\Entity</argument>
+                      </argument>
+                    </service>
+                  </argument>
+                  <argument>NomencladorBundle\Entity</argument>
+                </call>
+                <call method="addDriver">
+                  <argument type="service">
+                    <service class="Doctrine\ORM\Mapping\Driver\AnnotationDriver" public="false">
+                      <argument type="service" id="annotation_reader"/>
+                      <argument type="collection">
+                        <argument>D:\Proyects\Symfony_2\SICONS\src\AdminBundle\Entity</argument>
+                        <argument>D:\Proyects\Symfony_2\SICONS\src\NomencladorBundle\Entity</argument>
+                        <argument>D:\Proyects\Symfony_2\SICONS\src\ProyectoBundle\Entity</argument>
+                      </argument>
+                    </service>
+                  </argument>
+                  <argument>ProyectoBundle\Entity</argument>
                 </call>
               </service>
             </argument>

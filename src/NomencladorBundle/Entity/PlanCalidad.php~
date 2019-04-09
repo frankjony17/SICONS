@@ -1,0 +1,61 @@
+<?php
+
+namespace NomencladorBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * PlanCalidad
+ *
+ * @ORM\Table(name="plan_calidad", indexes={@ORM\Index(name="IDX_392EA36FBDC787D3", columns={"elementos_control_id"}), @ORM\Index(name="IDX_392EA36FF625D1BA", columns={"proyecto_id"})})
+ * @ORM\Entity
+ */
+class PlanCalidad
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="SEQUENCE")
+     * @ORM\SequenceGenerator(sequenceName="plan_calidad_id_seq", allocationSize=1, initialValue=1)
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="observacion", type="text", nullable=true)
+     */
+    private $observacion;
+
+    /**
+     * @var boolean
+     *
+     * @ORM\Column(name="estado", type="boolean", nullable=true)
+     */
+    private $estado;
+
+    /**
+     * @var \ElementoControl
+     *
+     * @ORM\ManyToOne(targetEntity="ElementoControl")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="elementos_control_id", referencedColumnName="id")
+     * })
+     */
+    private $elementosControl;
+
+    /**
+     * @var \Proyecto
+     *
+     * @ORM\ManyToOne(targetEntity="Proyecto")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="proyecto_id", referencedColumnName="id")
+     * })
+     */
+    private $proyecto;
+
+
+}
+

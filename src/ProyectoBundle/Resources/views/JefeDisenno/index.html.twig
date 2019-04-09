@@ -1,0 +1,40 @@
+
+{% extends "::base.html.twig" %}
+
+{% block title %}JEFE-DISEÑO-SICONS{% endblock %}
+
+{% block favicon %}{{ asset('favicon.ico') }}{% endblock %}
+
+{% block stylesheet %}
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/jefe_disenno/index.css') }}" />
+{% endblock %}
+
+{% block javascripts %}
+    <script>
+        Ext.Loader.setConfig({
+            enabled: true
+        });
+        Ext.Loader.setPath({
+            'Ext.ux': '/js/ext-6.0.1/ux'
+        });
+        {#{% include "AdminBundle:Admin:globalScript.html.twig" %}#}
+
+        Ext.application({
+            name: 'SCS',
+            appFolder: '/js/app',
+            controllers: [
+                "proyecto.ProyectoFormController",
+                "proyecto.ProyectoGridController",
+                "proyecto.PlanCalidadController",
+                "proyecto.TareaProyeccionController",
+                "proyecto.PlanCalidadProyectoController",
+                "proyecto.TareaProyeccionProyectoController",
+                "proyecto.ViewportController",
+                "proyecto.ConsejoTecnicoController"
+            ],
+            launch: function(){
+                Ext.create('SCS.view.jefedisenno.Viewport');
+            }
+        });
+    </script>
+{% endblock %}

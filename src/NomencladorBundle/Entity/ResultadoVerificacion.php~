@@ -1,0 +1,51 @@
+<?php
+
+namespace NomencladorBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * ResultadoVerificacion
+ *
+ * @ORM\Table(name="resultado_verificacion", indexes={@ORM\Index(name="IDX_EC687FEF625D1BA", columns={"proyecto_id"})})
+ * @ORM\Entity
+ */
+class ResultadoVerificacion
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="SEQUENCE")
+     * @ORM\SequenceGenerator(sequenceName="resultado_verificacion_id_seq", allocationSize=1, initialValue=1)
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="resultado", type="string", nullable=false)
+     */
+    private $resultado;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="acciones_recomendas", type="string", nullable=false)
+     */
+    private $accionesRecomendas;
+
+    /**
+     * @var \Proyecto
+     *
+     * @ORM\ManyToOne(targetEntity="Proyecto")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="proyecto_id", referencedColumnName="id")
+     * })
+     */
+    private $proyecto;
+
+
+}
+

@@ -1,0 +1,76 @@
+<?php
+
+namespace NomencladorBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * EquipoTrabajo
+ *
+ * @ORM\Table(name="equipo_trabajo", uniqueConstraints={@ORM\UniqueConstraint(name="equipo_trabajo_persona_id_proyecto_id_key", columns={"persona_id", "proyecto_id"})}, indexes={@ORM\Index(name="IDX_B0F82E28F5F88DB9", columns={"persona_id"}), @ORM\Index(name="IDX_B0F82E28F625D1BA", columns={"proyecto_id"})})
+ * @ORM\Entity
+ */
+class EquipoTrabajo
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="SEQUENCE")
+     * @ORM\SequenceGenerator(sequenceName="equipo_trabajo_id_seq", allocationSize=1, initialValue=1)
+     */
+    private $id;
+
+    /**
+     * @var float
+     *
+     * @ORM\Column(name="participacion", type="float", precision=10, scale=0, nullable=true)
+     */
+    private $participacion;
+
+    /**
+     * @var \Persona
+     *
+     * @ORM\ManyToOne(targetEntity="Persona")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="persona_id", referencedColumnName="id")
+     * })
+     */
+    private $persona;
+
+    /**
+     * @var \Proyecto
+     *
+     * @ORM\ManyToOne(targetEntity="Proyecto")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="proyecto_id", referencedColumnName="id")
+     * })
+     */
+    private $proyecto;
+
+    /**
+     * @var \Doctrine\Common\Collections\Collection
+     *
+     * @ORM\ManyToMany(targetEntity="EquipoTrabajoEspecialidad", inversedBy="equipoTrabajo")
+     * @ORM\JoinTable(name="equipo_trabajo_responsabilidad",
+     *   joinColumns={
+     *     @ORM\JoinColumn(name="equipo_trabajo_id", referencedColumnName="id")
+     *   },
+     *   inverseJoinColumns={
+     *     @ORM\JoinColumn(name="equipo_trabajo_especialidad_id", referencedColumnName="id")
+     *   }
+     * )
+     */
+    private $equipoTrabajoEspecialidad;
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->equipoTrabajoEspecialidad = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+
+}
+
