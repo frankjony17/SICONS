@@ -8,10 +8,10 @@ Ext.define('SCS.view.jefedisenno.consejotecnico.ConsejoTecnicoPanel', {
         pack: 'start',
         align: 'stretch'
     },
-    bodyPadding: 10,
+    bodyPadding: 5,
     scrollable: true,
     defaults: {
-        bodyPadding: 5
+        bodyPadding: 2
     },
     bodyStyle: 'background-image:url(../../images/square.gif);',
 
@@ -128,6 +128,11 @@ Ext.define('SCS.view.jefedisenno.consejotecnico.ConsejoTecnicoPanel', {
                         name: 'id'
                     }],
                     buttons: [{
+                        text: 'Eliminar',
+                        iconCls: 'fa fa-trash',
+                        disabled: true,
+                        id: 'button-remove-consejo-tecnico'
+                    },'->',{
                         text: 'Salvar',
                         iconCls: 'fa fa-check',
                         disabled: true,

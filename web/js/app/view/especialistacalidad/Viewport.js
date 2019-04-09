@@ -36,6 +36,10 @@ Ext.define('SCS.view.especialistacalidad.Viewport', {
                             text: 'Revisión de Contrato <b>(PE-07-2)</b>',
                             iconCls: 'revision-contrato',
                             id: 'viewport-menu-revision-contrato'
+                        },{
+                            text: 'Control de Calidad <b>(1-2-3-4)</b>',
+                            iconCls: 'control-calidad',
+                            id: 'viewport-menu-control-calidad'
                         }]
                     })
                 },{

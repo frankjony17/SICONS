@@ -44,24 +44,6 @@
         <option name="myItemId" value="PostgreSQL - sicons_db@localhost" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="sicons_db.public" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="tarea_proyeccion" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="PostgreSQL - sicons_db@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -70,149 +52,108 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ConsejoTecnicoController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ProyectoBundle/Controller/ConsejoTecnicoController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5555556">
-              <caret line="314" column="91" selection-start-line="314" selection-start-column="91" selection-end-line="314" selection-end-column="91" />
-              <folding>
-                <element signature="e#45#80#0#PHP" expanded="true" />
-                <element signature="e#477#609#0#PHP" expanded="false" />
-                <element signature="e#818#847#1#PHP" expanded="true" />
-                <element signature="e#927#966#1#PHP" expanded="true" />
-                <element signature="e#1474#1593#0#PHP" expanded="false" />
-                <element signature="e#1791#1816#1#PHP" expanded="true" />
-                <element signature="e#1896#1935#1#PHP" expanded="true" />
-                <element signature="e#2686#2725#1#PHP" expanded="true" />
-                <element signature="e#3276#3416#0#PHP" expanded="false" />
-                <element signature="e#3421#4390#0#PHP" expanded="false" />
-                <element signature="e#3609#3648#1#PHP" expanded="true" />
-                <element signature="e#3710#3735#1#PHP" expanded="true" />
-                <element signature="e#4396#4527#0#PHP" expanded="false" />
-                <element signature="e#4532#5391#0#PHP" expanded="false" />
-                <element signature="e#4699#4738#1#PHP" expanded="true" />
-                <element signature="e#4803#4828#1#PHP" expanded="true" />
-                <element signature="e#4912#4946#1#PHP" expanded="true" />
-                <element signature="e#5397#5513#0#PHP" expanded="false" />
-                <element signature="e#5518#6405#0#PHP" expanded="false" />
-                <element signature="e#5710#5749#1#PHP" expanded="true" />
-                <element signature="e#5895#5920#1#PHP" expanded="true" />
-                <element signature="e#6012#6046#1#PHP" expanded="true" />
-                <element signature="e#6411#6537#0#PHP" expanded="false" />
-                <element signature="e#6542#7397#0#PHP" expanded="false" />
-                <element signature="e#6688#6715#1#PHP" expanded="true" />
-                <element signature="e#6800#6839#1#PHP" expanded="true" />
-                <element signature="e#6930#6959#1#PHP" expanded="true" />
-                <element signature="e#7097#7358#0#PHP" expanded="false" />
-                <element signature="e#7403#7531#0#PHP" expanded="false" />
-                <element signature="e#7536#7906#0#PHP" expanded="false" />
-                <element signature="e#7687#7716#1#PHP" expanded="true" />
-                <element signature="e#7912#8044#0#PHP" expanded="false" />
-                <element signature="e#8049#8352#0#PHP" expanded="false" />
-                <element signature="e#8202#8231#1#PHP" expanded="true" />
-                <element signature="e#8358#8474#0#PHP" expanded="false" />
-                <element signature="e#8479#9044#0#PHP" expanded="false" />
-                <element signature="e#8661#8686#1#PHP" expanded="true" />
-                <element signature="e#8866#8905#1#PHP" expanded="true" />
-                <element signature="e#9050#9168#0#PHP" expanded="false" />
-                <element signature="e#9173#9507#0#PHP" expanded="false" />
-                <element signature="e#9314#9339#1#PHP" expanded="true" />
-                <element signature="e#9513#9635#0#PHP" expanded="false" />
-                <element signature="e#9640#9924#0#PHP" expanded="false" />
-                <element signature="e#9783#9808#1#PHP" expanded="true" />
-                <element signature="e#10209#10236#1#PHP" expanded="true" />
-                <element signature="e#10321#10360#1#PHP" expanded="true" />
-                <element signature="e#10964#10991#1#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConsejoTecnicoController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/app/controller/proyecto/ConsejoTecnicoController.js">
+      <file leaf-file-name="Viewport.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/app/view/especialistacalidad/Viewport.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="89" column="53" selection-start-line="89" selection-start-column="53" selection-end-line="89" selection-end-column="53" />
-              <folding>
-                <element signature="e#836#884#0" expanded="false" />
-                <element signature="e#928#986#0" expanded="false" />
-                <element signature="e#1032#1080#0" expanded="false" />
-                <element signature="e#1136#1183#0" expanded="false" />
-                <element signature="e#1232#1281#0" expanded="false" />
-                <element signature="e#1330#1379#0" expanded="false" />
-                <element signature="e#1415#1466#0" expanded="false" />
-                <element signature="e#1502#1615#0" expanded="false" />
-                <element signature="e#1651#1686#0" expanded="false" />
-                <element signature="e#1732#1841#0" expanded="false" />
-                <element signature="e#1892#1944#0" expanded="false" />
-                <element signature="e#1997#2051#0" expanded="false" />
-                <element signature="e#2115#2236#0" expanded="false" />
-                <element signature="e#4140#4511#0" expanded="false" />
-                <element signature="e#4560#5338#0" expanded="false" />
-                <element signature="e#5401#5977#0" expanded="false" />
-                <element signature="e#6035#6590#0" expanded="false" />
-                <element signature="e#6633#7087#0" expanded="false" />
-                <element signature="e#7146#7447#0" expanded="false" />
-                <element signature="e#7477#8068#0" expanded="false" />
-                <element signature="e#8121#8659#0" expanded="false" />
-                <element signature="e#8697#9139#0" expanded="false" />
-                <element signature="e#10477#10573#0" expanded="false" />
-                <element signature="e#10907#11110#0" expanded="false" />
-                <element signature="e#11151#11275#0" expanded="false" />
-                <element signature="e#11311#11397#0" expanded="false" />
-                <marker date="1460417371233" expanded="true" signature="4359:4369" placeholder="..." />
-                <marker date="1460417371233" expanded="true" signature="4446:4456" placeholder="..." />
-                <marker date="1460417371233" expanded="true" signature="7295:7305" placeholder="..." />
-                <marker date="1460417371233" expanded="true" signature="7382:7392" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParticipantesGrid.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/consejotecnico/ParticipantesGrid.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="91" column="51" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="51" />
+              <caret line="41" column="62" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParticipantesStore.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/app/store/consejotecnico/ParticipantesStore.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IntervencionesGrid.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/consejotecnico/IntervencionesGrid.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="87" column="19" selection-start-line="87" selection-start-column="19" selection-end-line="90" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConsejoTecnicoPanel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/consejotecnico/ConsejoTecnicoPanel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="132" column="39" selection-start-line="132" selection-start-column="24" selection-end-line="132" selection-end-column="39" />
-              <folding>
-                <element signature="e#595#3843#0" expanded="false" />
-                <element signature="e#730#3832#0" expanded="false" />
-                <element signature="e#3496#3817#0" expanded="false" />
-                <element signature="e#3636#3798#0" expanded="false" />
-                <marker date="1460402984685" expanded="true" signature="1392:1419" placeholder="..." />
-                <marker date="1460402984685" expanded="true" signature="2720:2747" placeholder="..." />
-                <marker date="1460402984685" expanded="true" signature="4862:4889" placeholder="..." />
-              </folding>
+      <file leaf-file-name="DATABASE/57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad" pinned="false" current-in-tab="true">
+        <entry file="uml://DATABASE/57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad</OriginalElement>
+              <nodes>
+                <node x="334.5" y="-30.0">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad_elemento_control</node>
+                <node x="580.0" y="632.0">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.objetos</node>
+                <node x="335.5" y="483.5">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad_proyecto_objetos</node>
+                <node x="70.0" y="839.0">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyeto_control_calidad</node>
+                <node x="-29.5" y="312.0">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad_tipo</node>
+                <node x="610.0" y="-19.0">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.elemento_control</node>
+                <node x="380.0" y="1112.0">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_tipo</node>
+                <node x="604.5" y="192.0">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.elemento_control_tipo</node>
+                <node x="819.5" y="872.0">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_especialidad_proyecto</node>
+                <node x="845.5" y="1072.0">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_especialidad</node>
+                <node x="320.0" y="806.0">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto</node>
+                <node x="370.0" y="301.0">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad</node>
+                <node x="378.5" y="632.0">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_objetos</node>
+                <node x="802.5" y="323.5">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad_proyecto_especialidad</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyeto_control_calidad" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad">
+                  <point x="0.0" y="-81.0" />
+                  <point x="160.0" y="400.0" />
+                  <point x="-70.0" y="40.0" />
+                </edge>
+                <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.elemento_control" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.elemento_control_tipo">
+                  <point x="0.0" y="59.0" />
+                  <point x="0.0" y="-48.0" />
+                </edge>
+                <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_objetos" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto">
+                  <point x="0.0" y="48.0" />
+                  <point x="0.0" y="-114.0" />
+                </edge>
+                <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_especialidad_proyecto" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_especialidad">
+                  <point x="0.0" y="48.0" />
+                  <point x="0.0" y="-48.0" />
+                </edge>
+                <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_especialidad_proyecto" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto">
+                  <point x="-100.5" y="0.0" />
+                  <point x="120.0" y="0.0" />
+                </edge>
+                <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad_tipo">
+                  <point x="-70.0" y="0.0" />
+                  <point x="69.5" y="0.0" />
+                </edge>
+                <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_objetos" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.objetos">
+                  <point x="61.5" y="0.0" />
+                  <point x="-60.0" y="0.0" />
+                </edge>
+                <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad_proyecto_objetos" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_objetos">
+                  <point x="0.0" y="36.5" />
+                  <point x="0.0" y="-48.0" />
+                </edge>
+                <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyeto_control_calidad" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto">
+                  <point x="90.0" y="0.0" />
+                  <point x="-120.0" y="0.0" />
+                </edge>
+                <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad_elemento_control" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.elemento_control">
+                  <point x="105.5" y="0.0" />
+                  <point x="-70.0" y="0.0" />
+                </edge>
+                <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad_proyecto_objetos" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad">
+                  <point x="0.0" y="-36.5" />
+                  <point x="0.0" y="59.0" />
+                </edge>
+                <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_tipo">
+                  <point x="0.0" y="114.0" />
+                  <point x="0.0" y="-48.0" />
+                </edge>
+                <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad_proyecto_especialidad" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad">
+                  <point x="-117.5" y="0.0" />
+                  <point x="70.0" y="0.0" />
+                </edge>
+                <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad_proyecto_especialidad" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_especialidad_proyecto">
+                  <point x="0.0" y="36.5" />
+                  <point x="0.0" y="-48.0" />
+                </edge>
+                <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad_elemento_control" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad">
+                  <point x="0.0" y="70.0" />
+                  <point x="0.0" y="-59.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0448979591836733" x="544.5976562500001" y="996.453125" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
             </state>
           </provider>
         </entry>
@@ -251,7 +192,6 @@
         <option value="$PROJECT_DIR$/web/js/app/controller/proyecto/ViewportEquipoTrabajoController.js" />
         <option value="$PROJECT_DIR$/web/js/app/view/equipotrabajo/tareaproyeccion/TareaProyeccionGrid.js" />
         <option value="$PROJECT_DIR$/web/css/equipo_trabajo/index.css" />
-        <option value="$PROJECT_DIR$/web/js/app/view/especialistacalidad/Viewport.js" />
         <option value="$PROJECT_DIR$/web/js/app/view/especialistacalidad/RevisionContratoGrid.js" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/web/js/app/store/RevisionContratoStore.js" />
@@ -271,7 +211,6 @@
         <option value="$PROJECT_DIR$/web/js/app/store/consejotecnico/AcuerdosStore.js" />
         <option value="$PROJECT_DIR$/web/js/app/store/consejotecnico/AcuerdoStore.js" />
         <option value="$PROJECT_DIR$/web/js/app/store/consejotecnico/ParticipantesStore.js" />
-        <option value="$PROJECT_DIR$/web/js/app/view/jefedisenno/consejotecnico/ConsejoTecnicoPanel.js" />
         <option value="$PROJECT_DIR$/src/NomencladorBundle/Controller/PersonaController.php" />
         <option value="$PROJECT_DIR$/web/js/app/store/consejotecnico/IntervencionStore.js" />
         <option value="$PROJECT_DIR$/web/js/app/view/jefedisenno/consejotecnico/IntervencionesGrid.js" />
@@ -279,8 +218,10 @@
         <option value="$PROJECT_DIR$/web/js/app/view/jefedisenno/consejotecnico/AcuerdosGrid.js" />
         <option value="$PROJECT_DIR$/web/js/app/view/jefedisenno/consejotecnico/ParticipantesGrid.js" />
         <option value="$PROJECT_DIR$/src/ProyectoBundle/Entity/ProyectoConsejoTecnico.php" />
-        <option value="$PROJECT_DIR$/web/js/app/controller/proyecto/ConsejoTecnicoController.js" />
+        <option value="$PROJECT_DIR$/web/js/app/view/jefedisenno/consejotecnico/ConsejoTecnicoPanel.js" />
         <option value="$PROJECT_DIR$/src/ProyectoBundle/Controller/ConsejoTecnicoController.php" />
+        <option value="$PROJECT_DIR$/web/js/app/controller/proyecto/ConsejoTecnicoController.js" />
+        <option value="$PROJECT_DIR$/web/js/app/view/especialistacalidad/Viewport.js" />
       </list>
     </option>
   </component>
@@ -346,531 +287,18 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jefedisenno" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jefedisenno" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="proyecto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jefedisenno" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plancalidad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jefedisenno" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="consejotecnico" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="consejotecnico" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jefe_disenno" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JefeDisenno" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EspecialistaCalidad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SICONS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Aplicaciones/Desarrollo/phpStorm/postgresql-9.4-1201.jdbc4.jar" />
     <property name="dynamic.classpath" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="FullScreen" value="false" />
@@ -933,16 +361,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2708018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Symfony2" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286385" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961948" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.625" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -953,6 +380,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -970,7 +398,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2708018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Symfony2" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290469" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961948" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -991,34 +419,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="27" />
+      <option name="time" value="28" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/js/app/view/equipotrabajo/tareaproyeccion/TareaProyeccionGrid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03529412">
-          <caret line="1" column="70" selection-start-line="0" selection-start-column="0" selection-end-line="107" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/proyecto/ProyectoForm5Edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0117648">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/proyecto/ProyectoForm4Edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3764706">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/proyecto/ProyectoForm3Edit.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.6941177">
@@ -1062,14 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/view/especialistacalidad/Viewport.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="64" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ProyectoBundle/Resources/views/EspecialistaCalidad/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.047619">
@@ -1084,7 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="71" column="35" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1092,14 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/view/nomenclador/cargo/CargoGrid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5764706">
-          <caret line="24" column="24" selection-start-line="21" selection-start-column="8" selection-end-line="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1122,7 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.52967525">
           <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,7 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="90" column="24" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1179,14 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/view/nomenclador/cargo/CargoForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="33" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NomencladorBundle/Entity/Persona.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.4444444">
@@ -1199,7 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3888889">
           <caret line="155" column="9" selection-start-line="150" selection-start-column="8" selection-end-line="155" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1207,7 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1215,7 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="35" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1223,7 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44444445">
           <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1231,12 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3137255">
           <caret line="93" column="70" selection-start-line="93" selection-start-column="22" selection-end-line="93" selection-end-column="70" />
-          <folding>
-            <marker date="1460310024070" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1460310024070" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1460310024070" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1460310024070" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1252,9 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-          <folding>
-            <element signature="e#776#974#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1262,7 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="10" selection-start-line="5" selection-start-column="8" selection-end-line="9" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1278,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1633987">
           <caret line="16" column="47" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1286,18 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49019608">
           <caret line="229" column="55" selection-start-line="229" selection-start-column="44" selection-end-line="229" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/controller/nomenclador/CargoController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5751634">
-          <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="114" selection-end-column="11" />
-          <folding>
-            <marker date="1457278103382" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1457278103382" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1305,7 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47058824">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1316,36 +666,6 @@
           <folding>
             <element signature="e#5817#5847#0#PHP" expanded="false" />
             <element signature="e#6343#7784#0#PHP" expanded="false" />
-            <marker date="1460414031977" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..ProyectoBundle..." />
-            <marker date="1460414031977" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..ProyectoBundle..." />
-            <marker date="1460414031977" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..ProyectoBundle..." />
-            <marker date="1460414031977" expanded="true" signature="-1:-1" placeholder="SELECT MAX(n..acuerdos..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/consejotecnico/AcuerdosGrid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="38" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="38" />
-          <folding>
-            <marker date="1460414777904" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/consejotecnico/ConsejoTecnicoPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="132" column="39" selection-start-line="132" selection-start-column="24" selection-end-line="132" selection-end-column="39" />
-          <folding>
-            <element signature="e#595#3843#0" expanded="false" />
-            <element signature="e#730#3832#0" expanded="false" />
-            <element signature="e#3496#3817#0" expanded="false" />
-            <element signature="e#3636#3798#0" expanded="false" />
-            <marker date="1460402984685" expanded="true" signature="1392:1419" placeholder="..." />
-            <marker date="1460402984685" expanded="true" signature="2720:2747" placeholder="..." />
-            <marker date="1460402984685" expanded="true" signature="4862:4889" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1378,7 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35416666">
           <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1398,45 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/js/app/controller/proyecto/ConsejoTecnicoController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="89" column="53" selection-start-line="89" selection-start-column="53" selection-end-line="89" selection-end-column="53" />
-          <folding>
-            <element signature="e#836#884#0" expanded="false" />
-            <element signature="e#928#986#0" expanded="false" />
-            <element signature="e#1032#1080#0" expanded="false" />
-            <element signature="e#1136#1183#0" expanded="false" />
-            <element signature="e#1232#1281#0" expanded="false" />
-            <element signature="e#1330#1379#0" expanded="false" />
-            <element signature="e#1415#1466#0" expanded="false" />
-            <element signature="e#1502#1615#0" expanded="false" />
-            <element signature="e#1651#1686#0" expanded="false" />
-            <element signature="e#1732#1841#0" expanded="false" />
-            <element signature="e#1892#1944#0" expanded="false" />
-            <element signature="e#1997#2051#0" expanded="false" />
-            <element signature="e#2115#2236#0" expanded="false" />
-            <element signature="e#4140#4511#0" expanded="false" />
-            <element signature="e#4560#5338#0" expanded="false" />
-            <element signature="e#5401#5977#0" expanded="false" />
-            <element signature="e#6035#6590#0" expanded="false" />
-            <element signature="e#6633#7087#0" expanded="false" />
-            <element signature="e#7146#7447#0" expanded="false" />
-            <element signature="e#7477#8068#0" expanded="false" />
-            <element signature="e#8121#8659#0" expanded="false" />
-            <element signature="e#8697#9139#0" expanded="false" />
-            <element signature="e#10477#10573#0" expanded="false" />
-            <element signature="e#10907#11110#0" expanded="false" />
-            <element signature="e#11151#11275#0" expanded="false" />
-            <element signature="e#11311#11397#0" expanded="false" />
-            <marker date="1460417371233" expanded="true" signature="4359:4369" placeholder="..." />
-            <marker date="1460417371233" expanded="true" signature="4446:4456" placeholder="..." />
-            <marker date="1460417371233" expanded="true" signature="7295:7305" placeholder="..." />
-            <marker date="1460417371233" expanded="true" signature="7382:7392" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ProyectoBundle/Entity/ProyectoConsejoTecnico.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.166667">
@@ -1445,59 +725,281 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/nomenclador/cargo/CargoForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47712418">
+          <caret line="53" column="33" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/nomenclador/cargo/CargoGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/controller/nomenclador/CargoController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="115" column="6" selection-start-line="81" selection-start-column="4" selection-end-line="115" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/consejotecnico/ConsejoTecnicoPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="112" column="40" selection-start-line="112" selection-start-column="35" selection-end-line="112" selection-end-column="40" />
+          <folding>
+            <element signature="e#594#3842#0" expanded="false" />
+            <element signature="e#729#3831#0" expanded="false" />
+            <element signature="e#3495#3816#0" expanded="false" />
+            <element signature="e#3635#3797#0" expanded="false" />
+            <marker date="1460467463871" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1460467463871" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1460467463871" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/jefedisenno/consejotecnico/AcuerdosGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/controller/proyecto/ConsejoTecnicoController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23156089">
+          <caret line="325" column="61" selection-start-line="325" selection-start-column="61" selection-end-line="325" selection-end-column="61" />
+          <folding>
+            <element signature="e#278#437#0" expanded="false" />
+            <element signature="e#480#622#0" expanded="false" />
+            <element signature="e#670#789#0" expanded="false" />
+            <element signature="e#836#884#0" expanded="false" />
+            <element signature="e#1122#1170#0" expanded="false" />
+            <element signature="e#1226#1273#0" expanded="false" />
+            <element signature="e#1322#1371#0" expanded="false" />
+            <element signature="e#1420#1469#0" expanded="false" />
+            <element signature="e#1505#1556#0" expanded="false" />
+            <element signature="e#1592#1705#0" expanded="false" />
+            <element signature="e#1741#1776#0" expanded="false" />
+            <element signature="e#1982#2034#0" expanded="false" />
+            <element signature="e#2087#2141#0" expanded="false" />
+            <element signature="e#2205#2468#0" expanded="false" />
+            <element signature="e#4388#4879#0" expanded="false" />
+            <element signature="e#4928#5786#0" expanded="false" />
+            <element signature="e#5822#6380#0" expanded="false" />
+            <element signature="e#6967#7543#0" expanded="false" />
+            <element signature="e#7601#8156#0" expanded="false" />
+            <element signature="e#8199#8653#0" expanded="false" />
+            <element signature="e#9687#10225#0" expanded="false" />
+            <element signature="e#10263#10705#0" expanded="false" />
+            <element signature="e#10769#11334#0" expanded="false" />
+            <element signature="e#11377#11958#0" expanded="false" />
+            <element signature="e#12043#12139#0" expanded="false" />
+            <element signature="e#12172#12430#0" expanded="false" />
+            <element signature="e#12473#12676#0" expanded="false" />
+            <element signature="e#12717#12841#0" expanded="false" />
+            <element signature="e#13022#13144#0" expanded="false" />
+            <marker date="1460474544445" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1460474544445" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1460474544445" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1460474544445" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1460474544445" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ProyectoBundle/Controller/ConsejoTecnicoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5555556">
-          <caret line="314" column="91" selection-start-line="314" selection-start-column="91" selection-end-line="314" selection-end-column="91" />
+        <state vertical-scroll-proportion="0.6666667">
+          <caret line="332" column="19" selection-start-line="332" selection-start-column="19" selection-end-line="332" selection-end-column="19" />
           <folding>
-            <element signature="e#45#80#0#PHP" expanded="true" />
+            <element signature="e#45#80#0#PHP" expanded="false" />
             <element signature="e#477#609#0#PHP" expanded="false" />
-            <element signature="e#818#847#1#PHP" expanded="true" />
-            <element signature="e#927#966#1#PHP" expanded="true" />
+            <element signature="e#614#1468#0#PHP" expanded="false" />
             <element signature="e#1474#1593#0#PHP" expanded="false" />
-            <element signature="e#1791#1816#1#PHP" expanded="true" />
-            <element signature="e#1896#1935#1#PHP" expanded="true" />
-            <element signature="e#2686#2725#1#PHP" expanded="true" />
+            <element signature="e#1598#2332#0#PHP" expanded="false" />
+            <element signature="e#2338#2468#0#PHP" expanded="false" />
+            <element signature="e#2473#3270#0#PHP" expanded="false" />
             <element signature="e#3276#3416#0#PHP" expanded="false" />
             <element signature="e#3421#4390#0#PHP" expanded="false" />
-            <element signature="e#3609#3648#1#PHP" expanded="true" />
-            <element signature="e#3710#3735#1#PHP" expanded="true" />
             <element signature="e#4396#4527#0#PHP" expanded="false" />
             <element signature="e#4532#5391#0#PHP" expanded="false" />
-            <element signature="e#4699#4738#1#PHP" expanded="true" />
-            <element signature="e#4803#4828#1#PHP" expanded="true" />
-            <element signature="e#4912#4946#1#PHP" expanded="true" />
             <element signature="e#5397#5513#0#PHP" expanded="false" />
             <element signature="e#5518#6405#0#PHP" expanded="false" />
-            <element signature="e#5710#5749#1#PHP" expanded="true" />
-            <element signature="e#5895#5920#1#PHP" expanded="true" />
-            <element signature="e#6012#6046#1#PHP" expanded="true" />
             <element signature="e#6411#6537#0#PHP" expanded="false" />
             <element signature="e#6542#7397#0#PHP" expanded="false" />
-            <element signature="e#6688#6715#1#PHP" expanded="true" />
-            <element signature="e#6800#6839#1#PHP" expanded="true" />
-            <element signature="e#6930#6959#1#PHP" expanded="true" />
             <element signature="e#7097#7358#0#PHP" expanded="false" />
             <element signature="e#7403#7531#0#PHP" expanded="false" />
             <element signature="e#7536#7906#0#PHP" expanded="false" />
-            <element signature="e#7687#7716#1#PHP" expanded="true" />
             <element signature="e#7912#8044#0#PHP" expanded="false" />
             <element signature="e#8049#8352#0#PHP" expanded="false" />
-            <element signature="e#8202#8231#1#PHP" expanded="true" />
             <element signature="e#8358#8474#0#PHP" expanded="false" />
             <element signature="e#8479#9044#0#PHP" expanded="false" />
-            <element signature="e#8661#8686#1#PHP" expanded="true" />
-            <element signature="e#8866#8905#1#PHP" expanded="true" />
             <element signature="e#9050#9168#0#PHP" expanded="false" />
             <element signature="e#9173#9507#0#PHP" expanded="false" />
-            <element signature="e#9314#9339#1#PHP" expanded="true" />
             <element signature="e#9513#9635#0#PHP" expanded="false" />
             <element signature="e#9640#9924#0#PHP" expanded="false" />
-            <element signature="e#9783#9808#1#PHP" expanded="true" />
-            <element signature="e#10209#10236#1#PHP" expanded="true" />
-            <element signature="e#10321#10360#1#PHP" expanded="true" />
-            <element signature="e#10964#10991#1#PHP" expanded="true" />
+            <element signature="e#9930#10058#0#PHP" expanded="false" />
+            <element signature="e#10063#10670#0#PHP" expanded="false" />
+            <element signature="e#10676#10810#0#PHP" expanded="false" />
+            <element signature="e#10815#11272#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.acuerdos">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.acuerdos</OriginalElement>
+          <nodes>
+            <node x="" y="">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_tipo</node>
+            <node x="" y="">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_consejo_tecnico</node>
+            <node x="" y="">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.consejo_tecnico</node>
+            <node x="" y="">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto</node>
+            <node x="" y="">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.acuerdos</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7336683417085427" x="191.0" y="388.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyeto_control_calidad">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyeto_control_calidad</OriginalElement>
+          <nodes>
+            <node x="" y="">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad_tipo</node>
+            <node x="" y="">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_tipo</node>
+            <node x="" y="">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto</node>
+            <node x="" y="">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyeto_control_calidad</node>
+            <node x="" y="">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9636963696369637" x="388.2071917808219" y="273.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/app/view/especialistacalidad/Viewport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="62" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad</OriginalElement>
+          <nodes>
+            <node x="334.5" y="-30.0">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad_elemento_control</node>
+            <node x="580.0" y="632.0">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.objetos</node>
+            <node x="335.5" y="483.5">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad_proyecto_objetos</node>
+            <node x="70.0" y="839.0">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyeto_control_calidad</node>
+            <node x="-29.5" y="312.0">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad_tipo</node>
+            <node x="610.0" y="-19.0">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.elemento_control</node>
+            <node x="380.0" y="1112.0">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_tipo</node>
+            <node x="604.5" y="192.0">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.elemento_control_tipo</node>
+            <node x="819.5" y="872.0">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_especialidad_proyecto</node>
+            <node x="845.5" y="1072.0">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_especialidad</node>
+            <node x="320.0" y="806.0">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto</node>
+            <node x="370.0" y="301.0">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad</node>
+            <node x="378.5" y="632.0">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_objetos</node>
+            <node x="802.5" y="323.5">57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad_proyecto_especialidad</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyeto_control_calidad" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad">
+              <point x="0.0" y="-81.0" />
+              <point x="160.0" y="400.0" />
+              <point x="-70.0" y="40.0" />
+            </edge>
+            <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.elemento_control" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.elemento_control_tipo">
+              <point x="0.0" y="59.0" />
+              <point x="0.0" y="-48.0" />
+            </edge>
+            <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_objetos" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto">
+              <point x="0.0" y="48.0" />
+              <point x="0.0" y="-114.0" />
+            </edge>
+            <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_especialidad_proyecto" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_especialidad">
+              <point x="0.0" y="48.0" />
+              <point x="0.0" y="-48.0" />
+            </edge>
+            <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_especialidad_proyecto" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto">
+              <point x="-100.5" y="0.0" />
+              <point x="120.0" y="0.0" />
+            </edge>
+            <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad_tipo">
+              <point x="-70.0" y="0.0" />
+              <point x="69.5" y="0.0" />
+            </edge>
+            <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_objetos" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.objetos">
+              <point x="61.5" y="0.0" />
+              <point x="-60.0" y="0.0" />
+            </edge>
+            <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad_proyecto_objetos" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_objetos">
+              <point x="0.0" y="36.5" />
+              <point x="0.0" y="-48.0" />
+            </edge>
+            <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyeto_control_calidad" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto">
+              <point x="90.0" y="0.0" />
+              <point x="-120.0" y="0.0" />
+            </edge>
+            <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad_elemento_control" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.elemento_control">
+              <point x="105.5" y="0.0" />
+              <point x="-70.0" y="0.0" />
+            </edge>
+            <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad_proyecto_objetos" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad">
+              <point x="0.0" y="-36.5" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_tipo">
+              <point x="0.0" y="114.0" />
+              <point x="0.0" y="-48.0" />
+            </edge>
+            <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad_proyecto_especialidad" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad">
+              <point x="-117.5" y="0.0" />
+              <point x="70.0" y="0.0" />
+            </edge>
+            <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad_proyecto_especialidad" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.proyecto_especialidad_proyecto">
+              <point x="0.0" y="36.5" />
+              <point x="0.0" y="-48.0" />
+            </edge>
+            <edge source="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad_elemento_control" target="57ae1bd3-b31c-45a2-8024-f7625f513e9f.table:sicons_db.public.control_calidad">
+              <point x="0.0" y="70.0" />
+              <point x="0.0" y="-59.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0448979591836733" x="544.5976562500001" y="996.453125" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
         </state>
       </provider>
     </entry>

@@ -75,6 +75,8 @@
       <w>especialistacalidad</w>
       <w>especilidad</w>
       <w>estado</w>
+      <w>este</w>
+      <w>existe</w>
       <w>exitosamente</w>
       <w>fecha</w>
       <w>fichero</w>
@@ -83,6 +85,7 @@
       <w>filtro</w>
       <w>finalizar</w>
       <w>firma</w>
+      <w>formulario</w>
       <w>ftype</w>
       <w>groupingsummary</w>
       <w>grupo</w>
@@ -145,6 +148,7 @@
       <w>revisioncontrato</w>
       <w>revisión</w>
       <w>revizar</w>
+      <w>rojo</w>
       <w>rownumberer</w>
       <w>rrevisión</w>
       <w>salvar</w>
@@ -172,6 +176,7 @@
       <w>varias</w>
       <w>varios</w>
       <w>vbox</w>
+      <w>válido</w>
       <w>xtype</w>
     </words>
   </dictionary>

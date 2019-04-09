@@ -317,4 +317,20 @@ class ConsejoTecnicoController extends Controller
         $em->flush();
         return new Response('');
     }
+
+    /**
+     * Remove Consejo Técnico Proyecto
+     *
+     * @Route("remove")
+     * @param Request $rq
+     * @return Response
+     */
+    public function removeConsejoTecnicoProyectoAction(Request $rq)
+    {
+        $em = $this->getDoctrine()->getManager();
+        $entity = $em->getRepository('ProyectoBundle:ProyectoConsejoTecnico')->find($rq->get('id'));
+        $em->remove($entity);
+        $em->flush();
+        return new Response('');
+    }
 }

@@ -27,6 +27,9 @@ Ext.define('SCS.controller.proyecto.ConsejoTecnicoController', {
         '#button-salvar-consejo-tecnico': {
             click: "isValidFormConsejoTecnico"
         },
+        '#button-remove-consejo-tecnico': {
+            click: "confirmRemove"
+        },
         '#button-cancelar-consejo-tecnico': {
             click: "cleanComponents"
         },
@@ -65,11 +68,14 @@ Ext.define('SCS.controller.proyecto.ConsejoTecnicoController', {
         this.proyectoId = combo.getValue();
         this.cleanComboBox();
         this.cleanFormConsejoTecnico();
+        Ext.getCmp('button-salvar-consejo-tecnico').setDisabled(true);
+        Ext.getCmp('button-remove-consejo-tecnico').setDisabled(true);
     },
     consejoTecnico: function (combo) {
         var me = this;
         me.consejoTecnicoId = combo.getValue();
         Ext.getCmp('button-salvar-consejo-tecnico').setDisabled(false);
+        Ext.getCmp('button-remove-consejo-tecnico').setDisabled(false);
         Ext.Ajax.request({
             url: '../consejo/tecnico/get-data',
             params: {
@@ -89,7 +95,6 @@ Ext.define('SCS.controller.proyecto.ConsejoTecnicoController', {
                     Ext.getCmp('combobox-persona-intervencion-form').setDisabled(false);
                     Ext.getCmp('combobox-persona-participante-form').setDisabled(false);
                     Ext.getCmp('button-salvar-acuerdo').setDisabled(false);
-                    me.acuerdoField.setDisabled(false);
                 } else {
                     me.cleanFormConsejoTecnico();
                     me.cleanFormIntervencion();
@@ -104,10 +109,10 @@ Ext.define('SCS.controller.proyecto.ConsejoTecnicoController', {
     },
     isValidFormConsejoTecnico: function (btn) {
         var form = btn.up('form');
-        if (form.getForm().isValid()) {
+        if (form.getForm().isValid() && Ext.getCmp('toolbar-combobox-consejo-tecnico').getValue()) {
             this.addConsejoTecnico(form, form.getForm().getValues());
         } else {
-            this.message('Atención?', '<b><span style="color:red;">Formulario no válido</span></b>, verifique las casillas en <b><span style="color:red;">rojo</span></b>.', Ext.Msg.QUESTION);
+            this.message('Atención?', '<b><span style="color:red;">Formulario no válido</span></b>, verifique las casillas en <b><span style="color:red;">rojo.</span></b><br><br>O compruebe que ha SELECCIONADO un Consejo Técnico.', Ext.Msg.QUESTION);
         }
     },
     addConsejoTecnico: function (form, record) {
@@ -124,9 +129,38 @@ Ext.define('SCS.controller.proyecto.ConsejoTecnicoController', {
             success: function (response) {
                 Ext.toast('Operación realizada exitosamente.', 'Actualización OK');
                 form.down('[name=id]').setValue(response.responseText);
+                Ext.getCmp('button-remove-consejo-tecnico').setDisabled(false);
                 me.proyectoConsejoTecnicoId = response.responseText;
             },
             failure: function (response) {
+                me.message('Error', response.responseText, Ext.Msg.ERROR);
+            }
+        });
+    },
+    confirmRemove: function (btn) {
+        var form = btn.up('form');
+        var me = this;
+        if (form.down('[name=local]').getValue()) {
+            Ext.MessageBox.confirm('Confirmación', 'Desea eliminar este Consejo Técnico?', confirm, this);
+            function confirm(btn) {
+                if (btn === 'yes') {
+                    me.removeProyectoConsejoTecnico();
+                }
+            }
+        } else {
+            this.message('Atención?', '<b><span style="color:#4275b1;">No existe un Consejo Técnico para eliminar</span></b>.', Ext.Msg.QUESTION);
+        }
+    },
+    removeProyectoConsejoTecnico: function () {
+        var me = this;
+        Ext.Ajax.request({
+            url: '../consejo/tecnico/remove',
+            params: { id: me.proyectoConsejoTecnicoId },
+            success: function() {
+                me.cleanFormConsejoTecnico();
+                Ext.getCmp('button-remove-consejo-tecnico').setDisabled(true);
+            },
+            failure: function(response){
                 me.message('Error', response.responseText, Ext.Msg.ERROR);
             }
         });
@@ -289,7 +323,7 @@ Ext.define('SCS.controller.proyecto.ConsejoTecnicoController', {
         this.storeIntervenciones.load();
     },
     cleanFormAcuerdo: function () {
-        this.acuerdoField.setDisabled(true);
+        Ext.getCmp('button-salvar-acuerdo').setDisabled(true);
         this.storeAcuerdo.load();
     },
     cleanFormParticipante: function () {
