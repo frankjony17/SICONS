@@ -1,0 +1,29 @@
+
+{% extends "::base.html.twig" %}
+
+{% block title %}ADMIN-SICONS{% endblock %}
+
+{% block favicon %}{{ asset('favicon.ico') }}{% endblock %}
+
+{% block stylesheet %}
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/admin/index.css') }}" />
+{% endblock %}
+
+{% block javascripts %}
+    <script>
+        {#{% include "AdminBundle:Admin:globalScript.html.twig" %}#}
+
+        Ext.application({
+            name: 'SCS',
+            appFolder: '/js/app',
+            controllers: [
+                "admin.SeguridadTreeController",
+                "admin.AdminController",
+                "admin.UsersController"
+            ],
+            launch: function(){
+                Ext.create('SCS.view.admin.Viewport');
+            }
+        });
+    </script>
+{% endblock %}

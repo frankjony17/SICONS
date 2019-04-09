@@ -1,0 +1,38 @@
+security:
+    encoders:
+        AdminBundle\Entity\Users: plaintext
+#            algorithm: plaintext
+
+    providers:
+        our_db_provider:
+            entity:
+                class: AdminBundle:Users
+                property: username
+
+    firewalls:
+        # disables authentication for assets and the profiler, adapt it according to your needs
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+        login:
+            pattern: ^/login$
+            security: false
+        check:
+            pattern:  ^login_check$
+            security: false
+
+        secured_area:
+            pattern: ^/
+            provider: our_db_provider
+            form_login:
+                check_path: _security_check
+                login_path: _login
+            logout:
+                path: _logout
+                target: _login
+
+    access_control:
+         - { path: ^/admin, roles: ROLE_ADMIN }
+         - { path: ^/reporte, roles: ROLE_USER }
+         - { path: ^/proyecto, roles: ROLE_USER }
+         - { path: ^/nomenclador, roles: ROLE_USER }

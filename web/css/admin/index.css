@@ -1,0 +1,39 @@
+#admin-header-title {
+    padding: 5px 10px 5px 40px;
+    background: url(../../images/admin/logo.png) no-repeat 10px 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #5e8dc7;
+}
+/** Icons for Tree */
+.tree-base-nomenclador:before{font:16px/1 FontAwesome;color: #c7221e;content:"\f0c2"}
+.tree-entidad-nomenclador:before{font:16px/1 FontAwesome;color: #5e8dc7;content:"\f015"}
+.tree-cargo-nomenclador:before{font:16px/1 FontAwesome;color: #5e8dc7;content:"\f19d"}
+.tree-persona-tipo-nomenclador:before{font:16px/1 FontAwesome;color: #5e8dc7;content:"\f183"}
+.tree-persona-nomenclador:before{font:16px/1 FontAwesome;color: #65c749;content:"\f21b"}
+.tree-componentes-nomenclador:before{font:16px/1 FontAwesome;color: #5e8dc7;content:"\f085"}
+.tree-elemento-control-nomenclador:before{font:16px/1 FontAwesome;color: #5e8dc7;content:"\f205"}
+.tree-elemento-control-tipo-nomenclador:before{font:16px/1 FontAwesome;color: #5e8dc7;content:"\f145"}
+.tree-elemento-nomenclador:before{font:16px/1 FontAwesome;color: #5e8dc7;content:"\f1b3"}
+.tree-aspectos-revizar-nomenclador:before{font:16px/1 FontAwesome;color: #5e8dc7;content:"\f009"}
+.tree-consejo-tecnico-nomenclador:before{font:16px/1 FontAwesome;color: #5e8dc7;content:"\f0e8"}
+.tree-control-calidad-nomenclador:before{font:16px/1 FontAwesome;color: #5e8dc7;content:"\f0fa"}
+.tree-aspectos-servicio-indicadores-nomenclador:before{font:16px/1 FontAwesome;color: #5e8dc7;content:"\f0b1"}
+.tree-proyecto-nomenclador:before{font:16px/1 FontAwesome;color: #5e8dc7;content:"\f19c"}
+.tree-proyecto-tipo-nomenclador:before{font:16px/1 FontAwesome;color: #5e8dc7;content:"\f02c"}
+.tree-objetos-nomenclador:before{font:16px/1 FontAwesome;color: #5e8dc7;content:"\f0ae"}
+.tree-especialidades-nomenclador:before{font:16px/1 FontAwesome;color: #5e8dc7;content:"\f0f2"}
+.tree-documentos-nomenclador:before{font:16px/1 FontAwesome;color: #5e8dc7;content:"\f0ea"}
+.tree-escala-nomenclador:before{font:16px/1 FontAwesome;color: #5e8dc7;content:"\f125"}
+.tree-formato-nomenclador:before{font:16px/1 FontAwesome;color: #5e8dc7;content:"\f15b"}
+.tree-usuarios:before{font:16px/1 FontAwesome;color: #5e8dc7;content:"\f007"}
+.tree-roles:before{font:16px/1 FontAwesome;color: #5e8dc7;content:"\f09d"}
+
+/* Color Row Grid */
+.x-grid-row-no-roles-color {
+    background-color: #ffff99;
+}
+.x-grid-row-estado-color {
+    background-color: #ff9999;
+}

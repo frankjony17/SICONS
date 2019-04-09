@@ -1,0 +1,19 @@
+reporte:
+    resource: "@ReporteBundle/Controller/"
+    type:     annotation
+    prefix:   /reporte/
+
+proyecto:
+    resource: "@ProyectoBundle/Controller/"
+    type:     annotation
+    prefix:   /proyecto/
+
+nomenclador:
+    resource: "@NomencladorBundle/Controller/"
+    type:     annotation
+    prefix:   /nomenclador/
+
+admin:
+    resource: "@AdminBundle/Controller/"
+    type:     annotation
+    prefix:   /
